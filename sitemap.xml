@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://k94.ch/</loc>
+        <loc>https://rust-galt.github.io/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/about/</loc>
+        <loc>https://rust-galt.github.io/about/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/archive/</loc>
+        <loc>https://rust-galt.github.io/archive/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/blog/</loc>
+        <loc>https://rust-galt.github.io/blog/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/blog/first-rust/</loc>
+        <loc>https://rust-galt.github.io/blog/first-rust/</loc>
         <lastmod>2019-11-27</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/first/</loc>
+        <loc>https://rust-galt.github.io/blog/first/</loc>
         <lastmod>2019-11-27</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/markdown-here-cheatsheet/</loc>
+        <loc>https://rust-galt.github.io/blog/markdown-here-cheatsheet/</loc>
         <lastmod>2020-03-20</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/second/</loc>
+        <loc>https://rust-galt.github.io/blog/second/</loc>
         <lastmod>2019-11-28</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/test/</loc>
+        <loc>https://rust-galt.github.io/blog/test/</loc>
         <lastmod>2022-09-11T04:20:00Z</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/test1337/</loc>
+        <loc>https://rust-galt.github.io/blog/test1337/</loc>
         <lastmod>2022-09-11T13:37:00Z</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/test2/</loc>
+        <loc>https://rust-galt.github.io/blog/test2/</loc>
         <lastmod>1990-12-31T23:59:60Z</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/blog/test3/</loc>
+        <loc>https://rust-galt.github.io/blog/test3/</loc>
         <lastmod>1990-12-31T23:59:51.2323+04:00</lastmod>
     </url>
     <url>
-        <loc>https://k94.ch/contact/</loc>
+        <loc>https://rust-galt.github.io/contact/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/misc/</loc>
+        <loc>https://rust-galt.github.io/misc/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/misc/cli/</loc>
+        <loc>https://rust-galt.github.io/misc/cli/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/misc/misc/</loc>
+        <loc>https://rust-galt.github.io/misc/misc/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/rust/</loc>
+        <loc>https://rust-galt.github.io/rust/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/rust/cli/</loc>
+        <loc>https://rust-galt.github.io/rust/cli/</loc>
     </url>
     <url>
-        <loc>https://k94.ch/rust/rust/</loc>
+        <loc>https://rust-galt.github.io/rust/rust/</loc>
     </url>
 </urlset>

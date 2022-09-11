@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title></title>
-	<link href="https://k94.ch/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://k94.ch"/>
+	<link href="https://rust-galt.github.io/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://rust-galt.github.io/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-09-11T13:37:00+00:00</updated>
-	<id>https://k94.ch/atom.xml</id>
+	<id>https://rust-galt.github.io/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Sixty character title to be soon, very soon at least</title>
 		<published>2022-09-11T13:37:00+00:00</published>
 		<updated>2022-09-11T13:37:00+00:00</updated>
-		<link href="https://k94.ch/blog/test1337/" type="text/html"/>
-		<id>https://k94.ch/blog/test1337/</id>
+		<link href="https://rust-galt.github.io/blog/test1337/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/test1337/</id>
 		<content type="html">&lt;h2 id=&quot;without-linenumbers&quot;&gt;Without linenumbers&lt;&#x2F;h2&gt;
 &lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
 &lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; highlight = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
@@ -43,34 +43,34 @@ highlight(code);
 		<title>Test</title>
 		<published>2022-09-11T04:20:00+00:00</published>
 		<updated>2022-09-11T04:20:00+00:00</updated>
-		<link href="https://k94.ch/blog/test/" type="text/html"/>
-		<id>https://k94.ch/blog/test/</id>
+		<link href="https://rust-galt.github.io/blog/test/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/test/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Markdown Here Cheatsheet</title>
 		<published>2020-03-20T00:00:00+00:00</published>
 		<updated>2020-03-20T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/markdown-here-cheatsheet/" type="text/html"/>
-		<id>https://k94.ch/blog/markdown-here-cheatsheet/</id>
+		<link href="https://rust-galt.github.io/blog/markdown-here-cheatsheet/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/markdown-here-cheatsheet/</id>
 		<content type="html">&lt;p&gt;This is intended as a quick reference and showcase. For more complete info, see &lt;a href=&quot;http:&#x2F;&#x2F;daringfireball.net&#x2F;projects&#x2F;markdown&#x2F;&quot;&gt;John Gruber&#x27;s original spec&lt;&#x2F;a&gt; and the &lt;a href=&quot;http:&#x2F;&#x2F;github.github.com&#x2F;github-flavored-markdown&#x2F;&quot;&gt;Github-flavored Markdown info page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;This cheatsheet is specifically &lt;em&gt;Markdown Here&#x27;s&lt;&#x2F;em&gt; version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses, so what you see below might vary a little from what you get in a &lt;em&gt;Markdown Here&lt;&#x2F;em&gt; email, but it should be pretty close.&lt;&#x2F;p&gt;
 &lt;p&gt;You can play around with Markdown on our &lt;a href=&quot;http:&#x2F;&#x2F;www.markdown-here.com&#x2F;livedemo.html&quot;&gt;live demo page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;(If you&#x27;re not a Markdown Here user, check out the &lt;a href=&quot;.&#x2F;Markdown-Cheatsheet&quot;&gt;Markdown Cheatsheet&lt;&#x2F;a&gt; that is not specific to MDH. But, really, you should also use Markdown Here, because it&#x27;s awesome. http:&#x2F;&#x2F;markdown-here.com)&lt;&#x2F;p&gt;
 &lt;h5 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;&#x2F;h5&gt;
-&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#headers&quot;&gt;Headers&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#emphasis&quot;&gt;Emphasis&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#lists&quot;&gt;Lists&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#links&quot;&gt;Links&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#images&quot;&gt;Images&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#code&quot;&gt;Code and Syntax Highlighting&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#tables&quot;&gt;Tables&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#blockquotes&quot;&gt;Blockquotes&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#html&quot;&gt;Inline HTML&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#hr&quot;&gt;Horizontal Rule&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#lines&quot;&gt;Line Breaks&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#videos&quot;&gt;YouTube Videos&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
-&lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#tex&quot;&gt;TeX Mathematical Formulae&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#headers&quot;&gt;Headers&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#emphasis&quot;&gt;Emphasis&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#lists&quot;&gt;Lists&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#links&quot;&gt;Links&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#images&quot;&gt;Images&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#code&quot;&gt;Code and Syntax Highlighting&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#tables&quot;&gt;Tables&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#blockquotes&quot;&gt;Blockquotes&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#html&quot;&gt;Inline HTML&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#hr&quot;&gt;Horizontal Rule&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#lines&quot;&gt;Line Breaks&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#videos&quot;&gt;YouTube Videos&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#tex&quot;&gt;TeX Mathematical Formulae&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;headers&quot;&gt;Headers&lt;&#x2F;h2&gt;
 &lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
 &lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;# H1
@@ -358,8 +358,8 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 		<title>My second post</title>
 		<published>2019-11-28T00:00:00+00:00</published>
 		<updated>2019-11-28T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/second/" type="text/html"/>
-		<id>https://k94.ch/blog/second/</id>
+		<link href="https://rust-galt.github.io/blog/second/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/second/</id>
 		<content type="html">&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -367,8 +367,8 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 		<title>My first rust post</title>
 		<published>2019-11-27T00:00:00+00:00</published>
 		<updated>2019-11-27T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/first-rust/" type="text/html"/>
-		<id>https://k94.ch/blog/first-rust/</id>
+		<link href="https://rust-galt.github.io/blog/first-rust/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/first-rust/</id>
 		<content type="html">&lt;p&gt;This is my first rust blog post.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -376,8 +376,8 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 		<title>My first post</title>
 		<published>2019-11-27T00:00:00+00:00</published>
 		<updated>2019-11-27T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/first/" type="text/html"/>
-		<id>https://k94.ch/blog/first/</id>
+		<link href="https://rust-galt.github.io/blog/first/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/first/</id>
 		<content type="html">&lt;p&gt;This is my first blog post.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -385,16 +385,16 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 		<title>Test22</title>
 		<published>1990-12-31T23:59:60+00:00</published>
 		<updated>1990-12-31T23:59:60+00:00</updated>
-		<link href="https://k94.ch/blog/test2/" type="text/html"/>
-		<id>https://k94.ch/blog/test2/</id>
+		<link href="https://rust-galt.github.io/blog/test2/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/test2/</id>
 		<content type="html"></content>
 	</entry>
 	<entry xml:lang="en">
 		<title>Test3</title>
 		<published>1990-12-31T23:59:51.232300+04:00</published>
 		<updated>1990-12-31T23:59:51.232300+04:00</updated>
-		<link href="https://k94.ch/blog/test3/" type="text/html"/>
-		<id>https://k94.ch/blog/test3/</id>
+		<link href="https://rust-galt.github.io/blog/test3/" type="text/html"/>
+		<id>https://rust-galt.github.io/blog/test3/</id>
 		<content type="html"></content>
 	</entry>
 </feed>
