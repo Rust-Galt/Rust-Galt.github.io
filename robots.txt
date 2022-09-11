@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://k94.ch/sitemap.xml
