@@ -1,7 +1,13 @@
 +++
 title = "Markdown Here Cheatsheet"
 date = 2020-03-20
+taxonomies.tech = ["tech"]
+taxonomies.tags = ["markdown", "guide", "how to","taghell1", "tagbag"]
 +++
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style internal link](/blog)
 
 This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
 

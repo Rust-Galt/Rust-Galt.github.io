@@ -3,35 +3,32 @@
 
 {% block content %}
 <article>
-    <section>
+    <header>
         <h1 class="title">
             {{ page.title }}
         </h1>
         <div>
-            <p class="subtitle"><strong>Published: {{ page.date | date(format="%F %H:%m") }}</strong></p>
+            {% set sep = "<strong>&middot;</strong>"%}
 
-            {# Category #}
-            Category: {% for t,a in page.taxonomies %}
-            {% if t != "tags" %}
-            <a href="{{config.base_url~t}}">/{{ t }}</a>
-            {% endif %}
+            <p class="subtitle"><strong>{% for t,a in page.taxonomies %}
+                    {% if t != "tags" %}
+                    <a href="{{config.base_url~t}}">{{ t | capitalize}}</a>
+                    {% endif %}{% endfor %}</strong>{{sep | safe}} <small><a href="{{config.base_url~"archive"}}">
+                        Published:
+                        {{ page.date | date(format="%F %H:%m") }} </a> </small>{{sep | safe}}<small>
+                    {{page.reading_time}} min </small>{{sep | safe}}<small>
+                    {% for t, tag_names in page.taxonomies %}
+                    {% if t == "tags" %}
+                    {% for tag_name in tag_names %}
+                    {% set tag_url = get_taxonomy_url(kind="tags", name=tag_name) %}
+                    <a href="{{tag_url}}">&nbsp;#{{tag_name | slugify | title }}&nbsp;</a>
+                    {% endfor %}{% endif %}{% endfor %}</small>
+            </p>
 
-            {% endfor %}<br />
 
-            {# Tags #}
-
-            {% for t, tag_names in page.taxonomies %}
-            {% if t == "tags" %}
-            Tags:
-            {% for tag_name in tag_names %}
-            {% set tag_url = get_taxonomy_url(kind="tags", name=tag_name) %}
-            <a href="{{tag_url}}">{{tag_name}}</a>
-            {% endfor %}
-            <br />
-            {% endif %}
-            {% endfor %}
         </div>
-
+    </header>
+    <section class="post">
 
 
         {# Write <!-- toc --> in markdown to put in toc in post#}

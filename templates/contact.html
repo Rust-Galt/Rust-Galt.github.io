@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+<article>
+    <section>
+        <h3>Email</h3>
+        <p style="text-indent: 2em;"> <a href="mailto:k94@k94.ch">k94@k94.ch</a>
+            (<a href="/publickey.k94@k94.ch-cf64998fea6e6bcf942457ced0703d5d33a9058a.asc" target="_blank">public
+                key</a>)
+            or write encrypted through <a href="https://proton.me/" target="_blank">ProtonMail</a> directly to this
+            address.
+        </p>
+        <h3>GitHub</h3>
+        <div style="display: flex;">
+            <a style="width: 4rem;" href="https://github.com/Rust-Galt" target="_blank">
+                <img src="/GitHub-Mark-120px-plus.png" alt="GitHub logo" width="42" height="42" />
+            </a>
+            <a style="align-self: center;" href="https://github.com/Rust-Galt" target="_blank">
+                Rust-Galt
+            </a>
+        </div>
+        {# <h4>Telegram:</h4>
+        <h4>GitHub:</h4> #}
+
+    </section>
+</article>
+
+
+
+{% endblock content %}

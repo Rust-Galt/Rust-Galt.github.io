@@ -1,5 +1,4 @@
 +++
 title = "Contact"
-+++
-
-<p>!!!CONTACT!!!</p>
+template = "contact.html"
++++  
