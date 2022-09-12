@@ -10,11 +10,11 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
-        <link rel="stylesheet" href="https://rust-galt.github.io/theme.css">
+        <link rel="stylesheet" href="{{ get_url(path="theme.css", trailing_slash=false) | safe }}">
 
-        
-        <link rel="alternate" type="application/atom+xml" title="RSS" href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;atom.xml">
-        
+        {% block rss %}
+        <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+        {% endblock %}
 
         <!-- <script data-goatcounter="https://stats.k94.ch/count" async src="//gc.zgo.at/count.js"></script> -->
         <script data-goatcounter="https://k94.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
@@ -38,55 +38,13 @@
         </header>
         <main>
 
-            
-<h1 class="title">
-    This is my blog made with Zola.
-</h1>
-
-<article>
-
-
-    <section>
-        <h3>Welcome to k94.ch!</h3>
-        <p>I'm Jakob Kilo and this is k94.ch, my personal website.</p>
-
-        <p>The main content on this site can be found in <a href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;blog&#x2F;">my blog</a>
-            where I want to cover topics
-            ranging from Rust crates/libraries, cryptography and strength training, to travel and other
-            curiousities.</p>
-
-        <p>If you want to know more <a href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;about&#x2F;">about me or this site</a>, check
-            out the <a href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;about&#x2F;">About
-                page</a>.</p>
-
-        <p>If you have any questions or comments, feel free to <a
-                href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;contact&#x2F;">contact me</a>, see how on the <a
-                href="https:&#x2F;&#x2F;rust-galt.github.io&#x2F;contact&#x2F;">Contact
-                page</a></p>
-
-    </section>
-
-
-    <section>
-
-        <h3>Timeline</h3>
-        <ol>
-            <li>datex Website launched</li>
-
-        </ol>
-
-
-    </section>
-
-
-</article>
-
+            {% block content %} {% endblock %}
 
         </main>
 
         <footer>
             <nav>
-                <a class="split"> <small>Copyright &copy; 2022 -
+                <a class="split"> <small>Copyright &copy; {{ now() | date(format="%Y") }} -
                         Jakob Kilo (k94@k94.ch) </small> </a>
                 <a href="/sitemap.xml">Sitemap</a>
                 <a href="/disclaimer">Disclaimer</a>

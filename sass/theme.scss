@@ -1,0 +1,320 @@
+@import "colors";
+
+@import url('https://fonts.googleapis.com/css?family=Lexend:400');
+
+* {
+    box-sizing: border-box;
+}
+
+article {
+    height: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+article:not(a[href^="http://127.0.0.1:1111"]::after).a[href^="http"]::after,
+article:not(a[href^="http://127.0.0.1:1111"]::after).a[href^="https"]::after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    margin-left: 4px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z'/%3E%3Cpath fill-rule='evenodd' d='M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z'/%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+aside {
+    width: auto;
+    padding-left: 0em;
+
+    // float: right;
+    font-style: italic;
+    // color: #69a95d;
+    // background-color: #3D3D3D;
+    border: #3D3D3D;
+    border-style: solid;
+    border-width: 0.1rem;
+    -webkit-border-radius: 1em 1em 1em 1em;
+
+    border-radius: 1em 1em 1em 1em;
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+pre {
+    padding: 1rem;
+    overflow: auto;
+}
+
+// The line numbers already provide some kind of left/right padding
+pre[data-linenos] {
+    padding: 1rem 0;
+}
+
+pre table td {
+    padding: 0;
+}
+
+// The line number cells
+pre table td:nth-of-type(1) {
+    text-align: center;
+    user-select: none;
+}
+
+pre mark {
+    // If you want your highlights to take the full width.
+    display: block;
+    // The default background colour of a mark is bright yellow
+    background-color: rgba(254, 252, 232, 0.9);
+}
+
+pre table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+html {
+    font-size: 100%;
+}
+
+/*16px*/
+
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 3.5rem;
+
+    margin: 0 auto;
+    //margin-bottom: 3.5rem;
+    // width: 860px;
+
+    max-width: 60rem;
+
+    background: #F7EDE2;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+    color: #000000;
+}
+
+p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 2rem 0 1rem;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+    line-height: 2.5rem;
+}
+
+h1.title {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    text-align: center;
+    line-height: 3rem;
+
+}
+
+
+h1 {
+
+    font-size: 2.25rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.728rem;
+}
+
+h4 {
+    font-size: 1.44rem;
+}
+
+h5 {
+    font-size: 1.2rem;
+}
+
+small,
+.text_small {
+    font-size: 0.833rem;
+}
+
+
+
+header {
+    nav {
+        align-items: center;
+        overflow: hidden;
+        background-color: #3D3D3D;
+        -webkit-border-radius: 0 0 1em 1em;
+        border-radius: 0 0 1em 1em;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 4.5rem;
+
+        a {
+            display: block;
+            color: #F7EDE2;
+            text-align: center;
+            padding: 1em 1em;
+            text-decoration: none;
+            font-weight: bolder;
+            font-size: larger;
+        }
+
+        a.split {
+            margin-left: auto;
+        }
+
+        a:hover {
+            /* color: #FF7E00; */
+            color: #69a95d;
+        }
+
+        a.smaller {
+            font-family: 'Ubuntu Mono';
+            display: block;
+            color: #F7EDE2;
+            text-align: center;
+            padding: 1em 1em;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: larger;
+        }
+
+        a.smaller:hover {
+            /* color: #FF7E00; */
+            color: #4168B5;
+        }
+
+        .logo {
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 1em;
+            padding-right: 1em;
+            text-align: center;
+
+            img {
+                height: 4.5rem;
+            }
+        }
+    }
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Footer height */
+    height: 4rem;
+
+    nav {
+        margin-top: 2rem;
+        height: 4rem;
+        //overflow: hidden;
+        background-color: #3D3D3D;
+        -webkit-border-radius: 1em 1em 0 0;
+        border-radius: 1em 1em 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        a {
+            color: #F7EDE2;
+            text-align: center;
+            padding: 1em 1em;
+            text-decoration: none;
+            font-weight: bolder;
+            // font-size: large;
+        }
+
+        a:hover {
+            color: #69a95d;
+        }
+
+        a.split {
+            margin-right: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 760px) {
+    main {
+        padding-bottom: 20rem;
+    }
+
+    header {
+        nav {
+
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            -webkit-border-radius: 0 0 0 0;
+            border-radius: 0 0 0 0;
+
+            a {
+                font-size: medium;
+                padding: 0.5rem;
+                width: 100%;
+            }
+
+            a.smaller {
+                visibility: collapse;
+            }
+
+            .logo img {
+                height: 3rem;
+            }
+        }
+    }
+
+    footer {
+        //position: absolute;
+        //position: relative;
+        // bottom: auto;
+        height: auto;
+
+        nav {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            -webkit-border-radius: 0 0 0 0;
+            border-radius: 0 0 0 0;
+
+            a {
+                font-size: small;
+                padding: 0.5rem;
+                //float: none;
+                width: 100%;
+            }
+        }
+    }
+
+    body {
+        max-width: 860px;
+        padding-bottom: 0;
+    }
+}

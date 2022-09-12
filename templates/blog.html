@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+
+<!-- {{ section.content | safe }} -->
+
+
+<article>
+    <section>
+
+        <p>Here is my blog where I publish things I'm curious about. <br />
+            I hope you'll find something interesting here. <br />
+            Feel free to <a style="text-decoration: none;" href="/contact">contact me</a> if you have any questions
+            or comments.</p>
+
+
+    </section>
+    <section>
+        <h3>Categories</h3>
+
+        <ul id="category_listing">
+
+
+            <li>
+                <a id="category_listing_link" href="/rust">
+                    <img src="/rustacean-flat-happy.svg" alt="Ferris waving" width="50" height="50"
+                        style="vertical-align: middle; margin-right:1em" />
+                    <span style="font-size: 1.25em; text-decoration: none"> /Rust:</span> Rusty topics,
+                    interesting crates and useful snippets
+                </a>
+            </li>
+            <li>
+                <a id="category_listing_link" href="/tech">
+                    <img src="/pgb-chip-generic.svg" alt="IC chip" width="50" height="50"
+                        style="vertical-align: middle; margin-right:1em" />
+                    <span style="font-size: 1.25em; text-decoration: none"> /Tech:</span> Technical topics,
+                    discoveries and curiosities
+                </a>
+            </li>
+            <li>
+                <a id="category_listing_link" href="/fit">
+                    <img src="/barbell.svg" alt="Barbell" width="50" height="50"
+                        style="vertical-align: middle; margin-right:1em" />
+                    <span style="font-size: 1.25em; text-decoration: none"> /Fit:</span> Fitness, exercise,
+                    nutrition, lifestyle and experimentation
+                </a>
+            </li>
+            <li>
+                <a id="category_listing_link" href="/misc">
+                    <img src="/looped_square.svg" alt="Looped square" width="50" height="50"
+                        style="vertical-align: middle; margin-right:1em" />
+                    <span style="font-size: 1.25em; text-decoration: none"> /Misc:</span> Miscellaneous topics,
+                    travel, photography and exploration
+                </a>
+            </li>
+
+        </ul>
+
+    </section>
+    <section>
+        <h3>All posts</h3>
+
+        <ul>
+            {% for page in section.pages %}
+            <li><a style="text-decoration: none;" href="{{ page.permalink | safe }}">
+                    <span
+                        style="width: 6em;display: inline-block; font-family: Ubuntu Mono;">{{ page.date | date(format="%F")}}</span>
+                    {{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock content %}

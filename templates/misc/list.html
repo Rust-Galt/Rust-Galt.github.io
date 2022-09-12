@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<ul>
+
+    {% for term in terms %}
+    {% for p in term.pages %}
+    <li> {{ p.title }} </li>
+    {% endfor %}
+    {% endfor %}
+
+</ul>
+
+
+
+<p>Misc list</p>
+{% endblock content %}

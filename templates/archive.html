@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+    {{ section.title }}
+</h1>
+{% set top_section = get_section(path="blog/_index.md") %}
+{% for year, posts in top_section.pages | group_by(attribute="year") %}
+<h2>{{ year }}</h2>
+
+<ul>
+    {% for post in posts %}
+    <li><a style="text-decoration: none;" href="{{ post.permalink }}">
+            <span style="width: 6em;display: inline-block; font-family: Ubuntu Mono;">
+                {{ post.date | date(format="%F")}}
+            </span>
+            {{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endfor %}
+{% endblock content %}

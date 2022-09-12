@@ -1,0 +1,46 @@
+{% import "macros.html" as macros %}
+{% extends "base.html" %}
+
+{% block content %}
+<article>
+    <section>
+        <h1 class="title">
+            {{ page.title }}
+        </h1>
+        <div>
+            <p class="subtitle"><strong>Published: {{ page.date | date(format="%F %H:%m") }}</strong></p>
+
+            {# Category #}
+            Category: {% for t,a in page.taxonomies %}
+            {% if t != "tags" %}
+            <a href="{{config.base_url~t}}">/{{ t }}</a>
+            {% endif %}
+
+            {% endfor %}<br />
+
+            {# Tags #}
+
+            {% for t, tag_names in page.taxonomies %}
+            {% if t == "tags" %}
+            Tags:
+            {% for tag_name in tag_names %}
+            {% set tag_url = get_taxonomy_url(kind="tags", name=tag_name) %}
+            <a href="{{tag_url}}">{{tag_name}}</a>
+            {% endfor %}
+            <br />
+            {% endif %}
+            {% endfor %}
+        </div>
+
+
+
+        {# Write <!-- toc --> in markdown to put in toc in post#}
+
+        {{ page.content | safe | replace(from="<!-- toc -->", to=macros::print_toc(page=page)) | safe}}
+
+
+
+
+    </section>
+</article>
+{% endblock content %}
