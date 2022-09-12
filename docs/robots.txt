@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://rust-galt.github.io/sitemap.xml
+Sitemap: https://k94.ch/sitemap.xml

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title> - rust</title>
-	<link href="https://rust-galt.github.io/rust/rust/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://rust-galt.github.io/"/>
+	<link href="https://k94.ch/rust/rust/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2019-11-27T00:00:00+00:00</updated>
-	<id>https://rust-galt.github.io/rust/rust/atom.xml</id>
+	<id>https://k94.ch/rust/rust/atom.xml</id>
 	<entry xml:lang="en">
 		<title>My first rust post</title>
 		<published>2019-11-27T00:00:00+00:00</published>
 		<updated>2019-11-27T00:00:00+00:00</updated>
-		<link href="https://rust-galt.github.io/blog/first-rust/" type="text/html"/>
-		<id>https://rust-galt.github.io/blog/first-rust/</id>
+		<link href="https://k94.ch/blog/first-rust/" type="text/html"/>
+		<id>https://k94.ch/blog/first-rust/</id>
 		<content type="html">&lt;p&gt;This is my first rust blog post.&lt;&#x2F;p&gt;
 </content>
 	</entry>

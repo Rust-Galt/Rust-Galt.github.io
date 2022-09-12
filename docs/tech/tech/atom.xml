@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title> - tech</title>
-	<link href="https://rust-galt.github.io/tech/tech/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://rust-galt.github.io/"/>
+	<link href="https://k94.ch/tech/tech/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-09-12T04:20:00+00:00</updated>
-	<id>https://rust-galt.github.io/tech/tech/atom.xml</id>
+	<id>https://k94.ch/tech/tech/atom.xml</id>
 	<entry xml:lang="en">
 		<title>tech</title>
 		<published>2022-09-12T04:20:00+00:00</published>
 		<updated>2022-09-12T04:20:00+00:00</updated>
-		<link href="https://rust-galt.github.io/blog/tech/" type="text/html"/>
-		<id>https://rust-galt.github.io/blog/tech/</id>
+		<link href="https://k94.ch/blog/tech/" type="text/html"/>
+		<id>https://k94.ch/blog/tech/</id>
 		<content type="html">&lt;!-- toc --&gt;
 &lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
 </content>

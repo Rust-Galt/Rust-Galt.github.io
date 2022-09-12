@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title> - tag2</title>
-	<link href="https://rust-galt.github.io/tags/tag2/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://rust-galt.github.io/"/>
+	<link href="https://k94.ch/tags/tag2/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2022-09-11T13:37:00+00:00</updated>
-	<id>https://rust-galt.github.io/tags/tag2/atom.xml</id>
+	<id>https://k94.ch/tags/tag2/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Sixty character title to be soon, very soon at least</title>
 		<published>2022-09-11T13:37:00+00:00</published>
 		<updated>2022-09-11T13:37:00+00:00</updated>
-		<link href="https://rust-galt.github.io/blog/test1337/" type="text/html"/>
-		<id>https://rust-galt.github.io/blog/test1337/</id>
+		<link href="https://k94.ch/blog/test1337/" type="text/html"/>
+		<id>https://k94.ch/blog/test1337/</id>
 		<content type="html">&lt;h2 id=&quot;without-linenumbers&quot;&gt;Without linenumbers&lt;&#x2F;h2&gt;
 &lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
 &lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; highlight = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
