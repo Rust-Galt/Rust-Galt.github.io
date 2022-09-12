@@ -1,72 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-	<title></title>
-	<link href="https://k94.ch/atom.xml" rel="self" type="application/atom+xml"/>
+	<title> - taghell1</title>
+	<link href="https://k94.ch/tags/taghell1/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-09-12T04:20:00+00:00</updated>
-	<id>https://k94.ch/atom.xml</id>
-	<entry xml:lang="en">
-		<title>fit</title>
-		<published>2022-09-12T04:20:00+00:00</published>
-		<updated>2022-09-12T04:20:00+00:00</updated>
-		<link href="https://k94.ch/blog/fit/" type="text/html"/>
-		<id>https://k94.ch/blog/fit/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>tech</title>
-		<published>2022-09-12T04:20:00+00:00</published>
-		<updated>2022-09-12T04:20:00+00:00</updated>
-		<link href="https://k94.ch/blog/tech/" type="text/html"/>
-		<id>https://k94.ch/blog/tech/</id>
-		<content type="html">&lt;!-- toc --&gt;
-&lt;h2 id=&quot;h2&quot;&gt;H2&lt;&#x2F;h2&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Sixty character title to be soon, very soon at least</title>
-		<published>2022-09-11T13:37:00+00:00</published>
-		<updated>2022-09-11T13:37:00+00:00</updated>
-		<link href="https://k94.ch/blog/test1337/" type="text/html"/>
-		<id>https://k94.ch/blog/test1337/</id>
-		<content type="html">&lt;h2 id=&quot;without-linenumbers&quot;&gt;Without linenumbers&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; highlight = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;toc&quot;&gt;TOC&lt;&#x2F;h3&gt;
-&lt;!-- toc --&gt;
-&lt;h3 id=&quot;with-linenumbers&quot;&gt;With linenumbers&lt;&#x2F;h3&gt;
-&lt;p&gt;test&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;highlighter::highlight;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; code = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;...&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-highlight(code);
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; highlight = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;with-linenumbers-1&quot;&gt;With linenumbers&lt;&#x2F;h3&gt;
-&lt;p&gt;test&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;highlighter::highlight;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; code = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;...&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-highlight(code);
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; highlight = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;true&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h3 id=&quot;with-linenumbers-2&quot;&gt;With linenumbers&lt;&#x2F;h3&gt;
-&lt;p&gt;test&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;highlighter::highlight;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt; code = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;...&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
-highlight(code);
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Test</title>
-		<published>2022-09-11T04:20:00+00:00</published>
-		<updated>2022-09-11T04:20:00+00:00</updated>
-		<link href="https://k94.ch/blog/test/" type="text/html"/>
-		<id>https://k94.ch/blog/test/</id>
-		<content type="html"></content>
-	</entry>
+	<updated>2020-03-20T00:00:00+00:00</updated>
+	<id>https://k94.ch/tags/taghell1/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Markdown Here Cheatsheet</title>
 		<published>2020-03-20T00:00:00+00:00</published>
@@ -376,48 +315,5 @@ $\forall x \in X, \quad \exists y \leq \epsilon$
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;The beginning and ending dollar signs (&lt;code&gt;$&lt;&#x2F;code&gt;) are the delimiters for the TeX markup.&lt;&#x2F;p&gt;
 </content>
-	</entry>
-	<entry xml:lang="en">
-		<title>My second post</title>
-		<published>2019-11-28T00:00:00+00:00</published>
-		<updated>2019-11-28T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/second/" type="text/html"/>
-		<id>https://k94.ch/blog/second/</id>
-		<content type="html">&lt;p&gt;This is my second blog post.&lt;&#x2F;p&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>My first rust post</title>
-		<published>2019-11-27T00:00:00+00:00</published>
-		<updated>2019-11-27T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/first-rust/" type="text/html"/>
-		<id>https://k94.ch/blog/first-rust/</id>
-		<content type="html">&lt;p&gt;This is my first rust blog post.&lt;&#x2F;p&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>My first post</title>
-		<published>2019-11-27T00:00:00+00:00</published>
-		<updated>2019-11-27T00:00:00+00:00</updated>
-		<link href="https://k94.ch/blog/first/" type="text/html"/>
-		<id>https://k94.ch/blog/first/</id>
-		<content type="html">&lt;p&gt;This is my first blog post.&lt;&#x2F;p&gt;
-</content>
-	</entry>
-	<entry xml:lang="en">
-		<title>Test22</title>
-		<published>1990-12-31T23:59:60+00:00</published>
-		<updated>1990-12-31T23:59:60+00:00</updated>
-		<link href="https://k94.ch/blog/test2/" type="text/html"/>
-		<id>https://k94.ch/blog/test2/</id>
-		<content type="html"></content>
-	</entry>
-	<entry xml:lang="en">
-		<title>How to Relate to People With Low Truth Alignment</title>
-		<published>1990-12-31T23:59:51.232300+04:00</published>
-		<updated>1990-12-31T23:59:51.232300+04:00</updated>
-		<link href="https://k94.ch/blog/test3/" type="text/html"/>
-		<id>https://k94.ch/blog/test3/</id>
-		<content type="html"></content>
 	</entry>
 </feed>
