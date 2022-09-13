@@ -1,5 +1,23 @@
 {% extends "base.html" %}
 {% block content %}
+
+{% set_global collection = [] -%}
+{% for term in terms %}
+{% set var = term.pages | length | as_str %}
+{% set_global collection = collection | concat(with=var) %}
+{% endfor %}
+{% set_global max = collection | sort | reverse | first | int %}
+
+{#names2= {{ terms | map(attribute="name") }}#}
+{% set_global names = [] -%}
+{% set_global counts = [] -%}
+{% for term in terms %}
+{% set count = term.pages | length %}
+{% set name = term.name %}
+{% set_global names = names | concat(with=name) %}
+{% set_global counts = counts | concat(with=count) %}
+{% endfor %}
+
 <article>
     <h1 class="title">
         #{{ taxonomy.name | title}}
@@ -9,28 +27,7 @@
     </section>
     <section>
 
-        {% set_global collection = [] -%}
-        {% for term in terms %}
-        {% set var = term.pages | length | as_str %}
-        {% set_global collection = collection | concat(with=var) %}
-        {% endfor %}
-        {% set_global max = collection | sort | reverse | first | int %}
-
-
-        {#names2= {{ terms | map(attribute="name") }}#}
-        {% set_global names = [] -%}
-        {% set_global counts = [] -%}
-        {% for term in terms %}
-        {% set count = term.pages | length %}
-        {% set name = term.name %}
-        {% set_global names = names | concat(with=name) %}
-        {% set_global counts = counts | concat(with=count) %}
-        {% endfor %}
-
-        <br />
-
         <ul>
-
             {% for t1 in terms %}
             {% for t2 in terms %}
             {% if max == counts | nth(n=loop.index0) | int %}
@@ -46,24 +43,16 @@
     </section>
     <section>
         <h3>All #{{ taxonomy.name | title}}</h3>
-        <ul>
-            {% for tt in terms %}
-            <li> <a style="text-decoration: none;" href="{{ tt.permalink | safe }}">#{{tt.name}}</a>
-                <ul>
-                    {% for page in tt.pages %}
-                    <li>
-                        <a style="text-decoration: none;" href="{{ page.permalink | safe }}">
+        <ul>{% for tt in terms %}<li> <a style="text-decoration: none;"
+                    href="{{ tt.permalink | safe }}">#{{tt.name}}</a>
+                <ul>{% for page in tt.pages %}
+                    <li><a style="text-decoration: none;" href="{{ page.permalink | safe }}">
                             <span style="width: 6em;display: inline-block; font-family: Ubuntu Mono;">
                                 {{ page.date | date(format="%F")}}
-                            </span>
-                            {{ page.title }}
-                        </a>
-                    </li>
-                    {% endfor %}
+                            </span>{{ page.title }}
+                        </a></li>{% endfor %}
                 </ul>
-            </li>
-            {% endfor %}
-        </ul>
+            </li>{% endfor %}</ul>
     </section>
 </article>
 {% endblock content %}
