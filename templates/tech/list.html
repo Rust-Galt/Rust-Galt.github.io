@@ -1,8 +1,27 @@
 {% extends "base.html" %}
-
 {% block content %}
-
-
-
-<p>Tech list</p>
+<article>
+    <h1 class="title">
+        {{ taxonomy.name | title}}
+    </h1>
+    <section>
+        <p>Here is my {{ taxonomy.name | title}} list</p>
+    </section>
+    <section>
+        <h3>All {{ taxonomy.name | title}} posts</h3>
+        <ul>
+            {% set tt = terms | first %}
+            {% for page in tt.pages %}
+            <li>
+                <a style="text-decoration: none;" href="{{ page.permalink | safe }}">
+                    <span style="width: 6em;display: inline-block; font-family: Ubuntu Mono;">
+                        {{ page.date | date(format="%F")}}
+                    </span>
+                    {{ page.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+</article>
 {% endblock content %}

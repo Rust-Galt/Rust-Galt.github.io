@@ -44,8 +44,8 @@
 &lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#videos&quot;&gt;YouTube Videos&lt;&#x2F;a&gt;&lt;br &#x2F;&gt;
 &lt;a href=&quot;https:&#x2F;&#x2F;k94.ch&#x2F;blog&#x2F;markdown-here-cheatsheet&#x2F;#tex&quot;&gt;TeX Mathematical Formulae&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;headers&quot;&gt;Headers&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;# H1
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;# H1
 ## H2
 ### H3
 #### H4
@@ -69,8 +69,8 @@ Alt-H2
 &lt;h1 id=&quot;alt-h1&quot;&gt;Alt-H1&lt;&#x2F;h1&gt;
 &lt;h2 id=&quot;alt-h2&quot;&gt;Alt-H2&lt;&#x2F;h2&gt;
 &lt;h2 id=&quot;emphasis&quot;&gt;Emphasis&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Emphasis, aka italics, with *asterisks* or _underscores_.
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Emphasis, aka italics, with *asterisks* or _underscores_.
 
 Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
@@ -83,8 +83,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 &lt;p&gt;Combined emphasis with &lt;strong&gt;asterisks and &lt;em&gt;underscores&lt;&#x2F;em&gt;&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;Strikethrough uses two tildes. &lt;del&gt;Scratch this.&lt;&#x2F;del&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;lists&quot;&gt;Lists&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;1. First ordered list item
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;1. First ordered list item
 2. Another item
   * Unordered sub-list. 
 1. Actual numbers don&amp;#39;t matter, just that it&amp;#39;s a number
@@ -127,8 +127,8 @@ Strikethrough uses two tildes. ~~Scratch this.~~
 &lt;&#x2F;ul&gt;
 &lt;h2 id=&quot;links&quot;&gt;Links&lt;&#x2F;h2&gt;
 &lt;p&gt;There are two ways to create links.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;[I&amp;#39;m an inline-style link](https:&#x2F;&#x2F;www.google.com)
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;[I&amp;#39;m an inline-style link](https:&#x2F;&#x2F;www.google.com)
 
 [I&amp;#39;m a reference-style link][Arbitrary case-insensitive reference text]
 
@@ -155,8 +155,8 @@ http:&#x2F;&#x2F;www.example.com or &lt;a href=&quot;http:&#x2F;&#x2F;www.exampl
 example.com (but not on Github, for example).&lt;&#x2F;p&gt;
 &lt;p&gt;Some text to show that the reference links can follow later.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;images&quot;&gt;Images&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Here&amp;#39;s our logo (hover to see the title text):
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Here&amp;#39;s our logo (hover to see the title text):
 
 Inline-style: 
 ![alt text](https:&#x2F;&#x2F;github.com&#x2F;adam-p&#x2F;markdown-here&#x2F;raw&#x2F;master&#x2F;src&#x2F;common&#x2F;images&#x2F;icon48.png &amp;quot;Logo Title Text 1&amp;quot;)
@@ -173,8 +173,8 @@ Reference-style:
 &lt;img src=&quot;https:&#x2F;&#x2F;github.com&#x2F;adam-p&#x2F;markdown-here&#x2F;raw&#x2F;master&#x2F;src&#x2F;common&#x2F;images&#x2F;icon48.png&quot; alt=&quot;alt text&quot; title=&quot;Logo Title Text 2&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;code-and-syntax-highlighting&quot;&gt;&lt;a name=&quot;code&quot;&gt;&lt;&#x2F;a&gt;Code and Syntax Highlighting&lt;&#x2F;h2&gt;
 &lt;p&gt;Code blocks are part of the Markdown spec, but syntax highlighting isn&#x27;t. However, many renderers -- like Github&#x27;s and &lt;em&gt;Markdown Here&lt;&#x2F;em&gt; -- support syntax highlighting. &lt;em&gt;Markdown Here&lt;&#x2F;em&gt; supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the &lt;a href=&quot;http:&#x2F;&#x2F;softwaremaniacs.org&#x2F;media&#x2F;soft&#x2F;highlight&#x2F;test.html&quot;&gt;highlight.js demo page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Inline `code` has `back-ticks around` it.
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Inline `code` has `back-ticks around` it.
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Inline &lt;code&gt;code&lt;&#x2F;code&gt; has &lt;code&gt;back-ticks around&lt;&#x2F;code&gt; it.&lt;&#x2F;p&gt;
 &lt;p&gt;Blocks of code are either fenced by lines with three back-ticks &lt;code&gt;```&lt;&#x2F;code&gt;, or are indented with four spaces. I recommend only using the fenced code blocks -- they&#x27;re easier and only they support syntax highlighting.&lt;&#x2F;p&gt;
@@ -193,21 +193,21 @@ No language indicated, so no syntax highlighting.
 But let&#x27;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;&#x2F;b&amp;gt;.
 ```
 &lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;s = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;JavaScript syntax highlighting&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;;
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#323232;&quot;&gt;s &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#183691;&quot;&gt;&amp;quot;JavaScript syntax highlighting&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#323232;&quot;&gt;;
 alert(s);
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;s = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d69d85;&quot;&gt;&amp;quot;Python syntax highlighting&amp;quot;
-&lt;&#x2F;span&gt;&lt;span style=&quot;color:#569cd6;&quot;&gt;print &lt;&#x2F;span&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;s
-&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;s &lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#183691;&quot;&gt;&amp;quot;Python syntax highlighting&amp;quot;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-weight:bold;color:#a71d5d;&quot;&gt;print &lt;&#x2F;span&gt;&lt;span style=&quot;color:#323232;&quot;&gt;s
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
 But let&amp;#39;s throw in a &amp;lt;b&amp;gt;tag&amp;lt;&#x2F;b&amp;gt;.
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Again, to see what languages are available for highlighting, and how to write those language names, see the &lt;a href=&quot;http:&#x2F;&#x2F;softwaremaniacs.org&#x2F;media&#x2F;soft&#x2F;highlight&#x2F;test.html&quot;&gt;highlight.js demo page&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;tables&quot;&gt;Tables&lt;&#x2F;h2&gt;
 &lt;p&gt;Tables aren&#x27;t part of the core Markdown spec, but they are part of GFM and &lt;em&gt;Markdown Here&lt;&#x2F;em&gt; supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Colons can be used to align columns.
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Colons can be used to align columns.
 
 | Tables        |      Are      |  Cool |
 | ------------- | :-----------: | ----: |
@@ -234,8 +234,8 @@ The outer pipes (|) are optional, and you don&amp;#39;t need to make the raw Mar
 &lt;tr&gt;&lt;td&gt;1&lt;&#x2F;td&gt;&lt;td&gt;2&lt;&#x2F;td&gt;&lt;td&gt;3&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
 &lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
 &lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;&amp;gt; Blockquotes are very handy in email to emulate reply text.
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;&amp;gt; Blockquotes are very handy in email to emulate reply text.
 &amp;gt; This line is part of the same quote.
 
 Quote break.
@@ -252,8 +252,8 @@ This line is part of the same quote.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
 &lt;h2 id=&quot;inline-html&quot;&gt;&lt;a name=&quot;html&quot;&gt;&lt;&#x2F;a&gt;Inline HTML&lt;&#x2F;h2&gt;
 &lt;p&gt;You can also use raw HTML in your Markdown, and it&#x27;ll mostly work pretty well. &lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;&amp;lt;dl&amp;gt;
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;&amp;lt;dl&amp;gt;
   &amp;lt;dt&amp;gt;Definition list&amp;lt;&#x2F;dt&amp;gt;
   &amp;lt;dd&amp;gt;Is something people use sometimes.&amp;lt;&#x2F;dd&amp;gt;
 
@@ -267,8 +267,8 @@ This line is part of the same quote.&lt;&#x2F;p&gt;
   &lt;dd&gt;Does *not* work **very** well. Use HTML &lt;em&gt;tags&lt;&#x2F;em&gt;.&lt;&#x2F;dd&gt;
 &lt;&#x2F;dl&gt;
 &lt;h2 id=&quot;horizontal-rule&quot;&gt;&lt;a name=&quot;hr&quot;&gt;&lt;&#x2F;a&gt;Horizontal Rule&lt;&#x2F;h2&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Three or more...
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Three or more...
 
 ---
 
@@ -292,8 +292,8 @@ Underscores
 &lt;h2 id=&quot;line-breaks&quot;&gt;&lt;a name=&quot;lines&quot;&gt;&lt;&#x2F;a&gt;Line Breaks&lt;&#x2F;h2&gt;
 &lt;p&gt;My basic recommendation for learning how line breaks work is to experiment and discover -- hit &amp;lt;Enter&amp;gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You&#x27;ll soon learn to get what you want. &amp;quot;Markdown Toggle&amp;quot; is your friend. &lt;&#x2F;p&gt;
 &lt;p&gt;Here are some things to try out:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;Here&amp;#39;s a line for us to start with.
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;Here&amp;#39;s a line for us to start with.
 
 This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
 
@@ -307,19 +307,19 @@ This line is only separated by a single newline, so it&#x27;s a separate line in
 &lt;p&gt;(Technical note: &lt;em&gt;Markdown Here&lt;&#x2F;em&gt; uses GFM line breaks, so there&#x27;s no need to use MD&#x27;s two-space line breaks.)&lt;&#x2F;p&gt;
 &lt;h2 id=&quot;youtube-videos&quot;&gt;&lt;a name=&quot;videos&quot;&gt;&lt;&#x2F;a&gt;YouTube Videos&lt;&#x2F;h2&gt;
 &lt;p&gt;They can&#x27;t be added directly but you can add an image with a link to the video like this:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;&amp;lt;a href=&amp;quot;http:&#x2F;&#x2F;www.youtube.com&#x2F;watch?feature=player_embedded&amp;amp;v=YOUTUBE_VIDEO_ID_HERE
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;&amp;lt;a href=&amp;quot;http:&#x2F;&#x2F;www.youtube.com&#x2F;watch?feature=player_embedded&amp;amp;v=YOUTUBE_VIDEO_ID_HERE
 &amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;&amp;lt;img src=&amp;quot;http:&#x2F;&#x2F;img.youtube.com&#x2F;vi&#x2F;YOUTUBE_VIDEO_ID_HERE&#x2F;0.jpg&amp;quot; 
 alt=&amp;quot;IMAGE ALT TEXT HERE&amp;quot; width=&amp;quot;240&amp;quot; height=&amp;quot;180&amp;quot; border=&amp;quot;10&amp;quot; &#x2F;&amp;gt;&amp;lt;&#x2F;a&amp;gt;
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
 &lt;p&gt;Or, in pure Markdown, but losing the image sizing and border:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;[![IMAGE ALT TEXT HERE](http:&#x2F;&#x2F;img.youtube.com&#x2F;vi&#x2F;YOUTUBE_VIDEO_ID_HERE&#x2F;0.jpg)](http:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YOUTUBE_VIDEO_ID_HERE)
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;[![IMAGE ALT TEXT HERE](http:&#x2F;&#x2F;img.youtube.com&#x2F;vi&#x2F;YOUTUBE_VIDEO_ID_HERE&#x2F;0.jpg)](http:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=YOUTUBE_VIDEO_ID_HERE)
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;&lt;h2 id=&quot;tex-mathematical-formulae&quot;&gt;&lt;a name=&quot;tex&quot;&gt;&lt;&#x2F;a&gt;TeX Mathematical Formulae&lt;&#x2F;h2&gt;
 &lt;p&gt;A full description of TeX math symbols is beyond the scope of this cheatsheet. Here&#x27;s a &lt;a href=&quot;https:&#x2F;&#x2F;en.wikibooks.org&#x2F;wiki&#x2F;LaTeX&#x2F;Mathematics&quot;&gt;good reference&lt;&#x2F;a&gt;, and you can try stuff out on &lt;a href=&quot;https:&#x2F;&#x2F;www.codecogs.com&#x2F;latex&#x2F;eqneditor.php&quot;&gt;CodeCogs&lt;&#x2F;a&gt;. You can also play with formulae in the Markdown Here options page.&lt;&#x2F;p&gt;
 &lt;p&gt;Here are some examples to try out:&lt;&#x2F;p&gt;
-&lt;pre style=&quot;background-color:#1e1e1e;&quot;&gt;
-&lt;code&gt;&lt;span style=&quot;color:#dcdcdc;&quot;&gt;$-b \pm \sqrt{b^2 - 4ac} \over 2a$
+&lt;pre style=&quot;background-color:#ffffff;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#323232;&quot;&gt;$-b \pm \sqrt{b^2 - 4ac} \over 2a$
 $x = a_0 + \frac{1}{a_1 + \frac{1}{a_2 + \frac{1}{a_3 + a_4}}}$
 $\forall x \in X, \quad \exists y \leq \epsilon$
 &lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
