@@ -4,12 +4,12 @@
 	<link href="https://k94.ch/fit/fit/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>2022-09-12T04:20:00+00:00</updated>
+	<updated>2019-11-11T00:00:00+00:00</updated>
 	<id>https://k94.ch/fit/fit/atom.xml</id>
 	<entry xml:lang="en">
 		<title>fit</title>
-		<published>2022-09-12T04:20:00+00:00</published>
-		<updated>2022-09-12T04:20:00+00:00</updated>
+		<published>2019-11-11T00:00:00+00:00</published>
+		<updated>2019-11-11T00:00:00+00:00</updated>
 		<link href="https://k94.ch/blog/fit/" type="text/html"/>
 		<id>https://k94.ch/blog/fit/</id>
 		<content type="html"></content>

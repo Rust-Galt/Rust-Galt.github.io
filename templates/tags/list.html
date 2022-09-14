@@ -26,7 +26,6 @@
         <p>Here is my {{ taxonomy.name | title}} list</p>
     </section>
     <section>
-
         <ul>
             {% for t1 in terms %}
             {% for t2 in terms %}
@@ -34,7 +33,8 @@
             {#{{max}}: {{ names | nth(n=loop.index0)}}#}
             {% set tt = terms | nth(n=loop.index0) %}
             <li>
-                <a style="text-decoration: none;" href="{{ tt.permalink | safe }}">#{{tt.name}}({{max}})</a>
+                <a style="text-decoration: none" href="{{ tt.permalink | safe }}">{{max}}
+                    &times; #{{tt.name}}</a>
             </li>
             {% endif %}{% endfor %}
             {% set_global max = max - 1 %}

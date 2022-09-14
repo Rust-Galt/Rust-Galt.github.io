@@ -7,27 +7,48 @@
         <h1 class="title">
             {{ page.title }}
         </h1>
-        <div>
-            {% set sep = "<strong>&middot;</strong>"%}
+        <!-- <div style="text-indent: 1rem;"> -->
+        {% set sep = "<strong>&middot;</strong>"%}
 
-            <p class="subtitle"><strong>{% for t,a in page.taxonomies %}
-                    {% if t != "tags" %}
-                    <a href="{{config.base_url~t}}">{{ t | capitalize}}</a>
-                    {% endif %}{% endfor %}</strong>{{sep | safe}} <small><a href="{{config.base_url~"archive"}}">
-                        Published:
-                        {{ page.date | date(format="%F %H:%m") }} </a> </small>{{sep | safe}}<small>
-                    {{page.reading_time}} min </small>{{sep | safe}}<small>
-                    {% for t, tag_names in page.taxonomies %}
-                    {% if t == "tags" %}
-                    {% for tag_name in tag_names %}
-                    {% set tag_url = get_taxonomy_url(kind="tags", name=tag_name) %}
-                    <a href="{{tag_url}}">&nbsp;#{{tag_name | slugify | title }}&nbsp;</a>
-                    {% endfor %}{% endif %}{% endfor %}</small>
-            </p>
-
-
-        </div>
+        <!-- </div> -->
     </header>
+    <hr />
+
+
+
+    <nav class="prevnext">
+        {% if page.earlier and page.earlier.permalink %}
+        <div class="prev">
+            <a href="{{ page.earlier.permalink | safe }}">
+                <span>&larr;&nbsp;Previous</span>
+            </a>
+        </div>
+        {% endif %}
+
+        <div class="infobar"><strong>{% for t,a in page.taxonomies %}
+                {% if t != "tags" %}
+                <a href="{{config.base_url~t}}">{{ t | capitalize}}</a>
+                {% endif %}{% endfor %}</strong>{{sep | safe}} <small><a href="{{config.base_url~"archive"}}">
+
+                    {{ page.date | date(format="%F %H:%m") }} </a> </small>{{sep | safe}}<small>
+                {# {{page.reading_time}} min #}</small>{#{{sep | safe}} #}<small>
+                {% for t, tag_names in page.taxonomies %}
+                {% if t == "tags" %}
+                {% for tag_name in tag_names %}
+                {% set tag_url = get_taxonomy_url(kind="tags", name=tag_name) %}
+                <a href="{{tag_url}}">&nbsp;#{{tag_name | slugify | title }}&nbsp;</a>
+                {% endfor %}{% endif %}{% endfor %}</small>
+        </div>
+        {% if page.later and page.later.permalink %}
+        <div class="next">
+            <a href="{{ page.later.permalink | safe }}">
+                <span></small>Next&nbsp;&rarr;</span>
+            </a>
+        </div>
+        {% endif %}
+    </nav>
+
+    <hr />
     <section class="post">
 
 
@@ -38,6 +59,29 @@
 
 
 
+    </section>
+    <section>
+        <hr />
+        <nav class="prevnext">
+            {% if page.earlier and page.earlier.permalink %}
+            <div class="prev">
+                <a href="{{ page.earlier.permalink | safe }}">
+                    <span>&larr; Previous &middot;
+                        <small>{{ page.earlier.title | truncate(length=40) }}</small></span>
+                </a>
+            </div>
+            {% endif %}
+
+            {% if page.later and page.later.permalink %}
+            <div class="next" style="margin-left: auto;">
+                <a href="{{ page.later.permalink | safe }}">
+                    <span><small>{{ page.later.title | truncate(length=40) }}</small> &middot; Next
+                        &rarr;</span>
+                </a>
+            </div>
+            {% endif %}
+        </nav>
+        <hr />
     </section>
 </article>
 {% endblock content %}

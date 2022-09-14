@@ -53,10 +53,16 @@
         <h3>All posts</h3>
         <ul>
             {% for page in section.pages %}
-            <li><a style="text-decoration: none;" href="{{ page.permalink | safe }}">
+            <li style="display: flex; margin-bottom: 0.5rem;">
+                <a style="text-decoration: none;" href="{{ page.permalink | safe }}">
                     <span
                         style="width: 6em;display: inline-block; font-family: Ubuntu Mono;">{{ page.date | date(format="%F")}}</span>
-                    {{ page.title }}</a></li>
+                </a>
+                <a style="text-decoration: none;" href="{{ page.permalink | safe }}">
+
+                    {{ page.title }}</a>
+
+            </li>
             {% endfor %}
         </ul>
     </section>

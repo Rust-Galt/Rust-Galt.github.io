@@ -12,17 +12,17 @@ article {
     margin-right: 1rem;
 }
 
-p {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
+// p {
+//     margin-left: 0.5rem;
+//     margin-right: 0.5rem;
+// }
 
 
 
-.subtitle {
-    margin: 0;
-    color: #3D3D3D;
-}
+// .infobar {
+//     margin: 0 2rem;
+//     color: #3D3D3D;
+// }
 
 
 a {
@@ -40,7 +40,7 @@ aside {
     padding-left: 0;
 
     // float: right;
-    font-style: italic;
+    // font-style: italic;
     // color: #69a95d;
     // background-color: #3D3D3D;
     border: #3D3D3D;
@@ -192,6 +192,35 @@ ul.category_listing {
     }
 }
 
+nav.prevnext {
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    //justify-content: space-between;
+
+    // border: #3D3D3D;
+    // border-style: solid;
+    // border-width: 0.1rem;
+    // -webkit-border-radius: 1rem 1rem 1rem 1em;
+    // border-radius: 1rem 1rem 1rem 1rem;
+
+    a {
+        text-decoration: none;
+    }
+
+    div.infobar {
+        align-self: center;
+        margin: auto;
+    }
+
+    div.next {
+        align-self: flex-end;
+        // margin-left: auto;
+    }
+
+
+}
+
 
 
 
@@ -308,6 +337,44 @@ footer {
         padding-left: 0rem;
     }
 
+
+
+
+    nav.prevnext {
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        // border: #3D3D3D;
+        // border-style: solid;
+        // border-width: 0.1rem;
+        // -webkit-border-radius: 1rem 1rem 1rem 1em;
+        // border-radius: 1rem 1rem 1rem 1rem;
+        div {
+            padding: 0.25rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        div.infobar {
+            align-self: center;
+            margin: unset;
+
+        }
+
+        div.next {
+            align-self: center;
+            margin-left: unset;
+        }
+
+
+    }
+
+
     header {
         nav {
 
@@ -338,6 +405,7 @@ footer {
         //position: absolute;
         //position: relative;
         // bottom: auto;
+
         height: auto;
 
         nav {

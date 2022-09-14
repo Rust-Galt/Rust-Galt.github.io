@@ -4,12 +4,12 @@
 	<link href="https://k94.ch/misc/cli/atom.xml" rel="self" type="application/atom+xml"/>
   <link href="https://k94.ch/"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
-	<updated>1990-12-31T23:59:60+00:00</updated>
+	<updated>2015-11-27T00:00:00+00:00</updated>
 	<id>https://k94.ch/misc/cli/atom.xml</id>
 	<entry xml:lang="en">
 		<title>Test22</title>
-		<published>1990-12-31T23:59:60+00:00</published>
-		<updated>1990-12-31T23:59:60+00:00</updated>
+		<published>2015-11-27T00:00:00+00:00</published>
+		<updated>2015-11-27T00:00:00+00:00</updated>
 		<link href="https://k94.ch/blog/test2/" type="text/html"/>
 		<id>https://k94.ch/blog/test2/</id>
 		<content type="html"></content>
