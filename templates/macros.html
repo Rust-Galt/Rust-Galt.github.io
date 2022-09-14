@@ -1,6 +1,7 @@
 {% macro print_toc(page) %}
 {% if page.toc %}
 <aside>
+    <hr />
     <ul>
         {% for h1 in page.toc %}
         <li>
@@ -17,6 +18,7 @@
         </li>
         {% endfor %}
     </ul>
+    <hr />
 </aside>
 {% endif %}
 {% endmacro print_toc %}
