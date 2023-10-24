@@ -4,3 +4,6 @@ language = "en"
 multilingual = false
 src = "src"
 title = "k94.ch"
+
+[build]
+build-dir = "docs"
