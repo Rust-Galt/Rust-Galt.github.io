@@ -2,8 +2,27 @@
 authors = ["rust-galt"]
 language = "en"
 multilingual = false
+description = "The example book covers examples."
 src = "src"
 title = "k94.ch"
 
 [build]
 build-dir = "docs"
+
+[preprocessor.tera]
+command = "mdbook-tera --template-include tera/*.tera --toml ./src/tera/context.toml"
+
+[preprocessor.cmdrun]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.0"    # do not edit: managed by `mdbook-admonish install`
+on_failure = "bail"
+
+[output.html]
+no-section-label = true
+cname = "k94.ch"
+copy-fonts = true
+additional-css = ["./theme/css/mdbook-admonish.css"]
+
+# [output.linkcheck]

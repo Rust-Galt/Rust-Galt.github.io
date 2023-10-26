@@ -1,38 +1,48 @@
 <!DOCTYPE HTML>
 <html lang="en" class="light" dir="ltr">
-    <head>
-        <!-- Book generated using mdBook -->
-        <meta charset="UTF-8">
-        <title>k94.ch</title>
-        <meta name="robots" content="noindex">
+
+<head>
+    <!-- Book generated using mdBook -->
+    <meta charset="UTF-8">
+    <title>k94.ch</title>
+    <meta name="robots" content="noindex">
 
 
-        <!-- Custom HTML head -->
-        
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#ffffff">
+    <!-- Custom HTML head -->
+    <!-- Goatcounter -->
+    <script data-goatcounter="https://k94.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <noscript>
+        <img src="https://k94.goatcounter.com/count?p=/test-noscript">
+    </noscript>
+    <meta name="description" content="The example book covers examples.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.png">
-        <link rel="stylesheet" href="css/variables.css">
-        <link rel="stylesheet" href="css/general.css">
-        <link rel="stylesheet" href="css/chrome.css">
-        <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="icon" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/chrome.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
-        <link rel="stylesheet" href="fonts/fonts.css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="fonts/fonts.css">
 
-        <!-- Highlight.js Stylesheets -->
-        <link rel="stylesheet" href="highlight.css">
-        <link rel="stylesheet" href="tomorrow-night.css">
-        <link rel="stylesheet" href="ayu-highlight.css">
+    <!-- Highlight.js Stylesheets -->
+    <link rel="stylesheet" href="highlight.css">
+    <link rel="stylesheet" href="tomorrow-night.css">
+    <link rel="stylesheet" href="ayu-highlight.css">
 
-        <!-- Custom theme stylesheets -->
+    <!-- Custom theme stylesheets -->
+    <link rel="stylesheet" href="./theme/css/mdbook-admonish.css">
 
-    </head>
-    <body class="sidebar-visible no-js">
+
+
+
+</head>
+
+<body class="sidebar-visible no-js">
     <div id="body-container">
         <!-- Provide site root to javascript -->
         <script>
@@ -59,7 +69,7 @@
         <!-- Set the theme before any content is loaded, prevents flash -->
         <script>
             var theme;
-            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            try { theme = localStorage.getItem('mdbook-theme'); } catch (e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('light')
@@ -77,7 +87,7 @@
             var sidebar = null;
             var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
             if (document.body.clientWidth >= 1080) {
-                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch (e) { }
                 sidebar = sidebar || 'visible';
             } else {
                 sidebar = 'hidden';
@@ -89,7 +99,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Articles</li><li class="chapter-item expanded "><a href="blog/2023/index.html"><strong aria-hidden="true">1.</strong> 2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html"><strong aria-hidden="true">1.1.</strong> 14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html"><strong aria-hidden="true">1.1.1.</strong> Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="blog/2023/index.html"><strong aria-hidden="true">2.</strong> 2022</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html"><strong aria-hidden="true">2.1.</strong> 14th October - Hello World</a></li><li class="chapter-item expanded "><a href="blog/2023/hellohello.html"><strong aria-hidden="true">2.2.</strong> Hello Hello Chapter</a></li><li class="spacer"></li></ol></li><li class="chapter-item expanded "><a href="algorithms/index.html"><strong aria-hidden="true">3.</strong> Algorithms</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="algorithms/chacha20.html"><strong aria-hidden="true">3.1.</strong> ChaCha20</a></li></ol></li><li class="chapter-item expanded "><a href="about.html">About</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">Tags</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -97,7 +107,7 @@
         <!-- Track and set sidebar scroll position -->
         <script>
             var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
-            sidebarScrollbox.addEventListener('click', function(e) {
+            sidebarScrollbox.addEventListener('click', function (e) {
                 if (e.target.tagName === 'A') {
                     sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
                 }
@@ -122,11 +132,15 @@
                                 <div id="menu-bar-hover-placeholder"></div>
                 <div id="menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
-                            <i class="fa fa-bars"></i>
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor"
+                            title="Toggle Table of Contents" aria-label="Toggle Table of Contents"
+                            aria-controls="sidebar">
+                            <i class="fa fa-bars fa-lg"></i>
                         </label>
-                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
-                            <i class="fa fa-paint-brush"></i>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme"
+                            aria-label="Change theme" aria-haspopup="true" aria-expanded="false"
+                            aria-controls="theme-list">
+                            <i class="fa fa-paint-brush fa-lg"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
@@ -135,16 +149,19 @@
                             <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
-                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
-                            <i class="fa fa-search"></i>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)"
+                            aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S"
+                            aria-controls="searchbar">
+                            <i class="fa fa-search fa-lg"></i>
                         </button>
+
                     </div>
 
                     <h1 class="menu-title">k94.ch</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Print this book" aria-label="Print this book">
-                            <i id="print-button" class="fa fa-print"></i>
+                            <i id="print-button" class="fa fa-print fa-lg"></i>
                         </a>
 
                     </div>
@@ -152,7 +169,8 @@
 
                 <div id="search-wrapper" class="hidden">
                     <form id="searchbar-outer" class="searchbar-outer">
-                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..."
+                            aria-controls="searchresults-outer" aria-describedby="searchresults-header">
                     </form>
                     <div id="searchresults-outer" class="searchresults-outer hidden">
                         <div id="searchresults-header" class="searchresults-header"></div>
@@ -165,28 +183,130 @@
                 <script>
                     document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
                     document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
-                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function (link) {
                         link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
                     });
                 </script>
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="home"><a class="header" href="#home">Home</a></h1>
-<!--  -->
-<script data-goatcounter="https://stats.k94.ch/count"
-        async src="//gc.zgo.at/count.js"></script>
-<iframe src="./dist/index.html" style="border:none;" width=100% height=400></iframe><div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
+                        <h1 id="first" class="test_class"><a class="header" href="#first">Home</a></h1>
+<blockquote>
+<p>Posted on 2022-05-27 in Software • Tagged with privacy, web, analytics, selfhost</p>
+</blockquote>
+<p>JJK</p>
+<div id="admonition-notice-and-listen" class="admonition admonish-info">
+<div class="admonition-title">
+<p>Notice and listen</p>
+<p><a class="admonition-anchor-link" href="index.html#admonition-notice-and-listen"></a></p>
+</div>
+<div>
+<p>A beautifully <strong>styled</strong> <del>message</del>.</p>
+</div>
+</div>
+<div id="admonition-bug" class="admonition admonish-bug">
+<div class="admonition-title">
+<p>Bug</p>
+<p><a class="admonition-anchor-link" href="index.html#admonition-bug"></a></p>
+</div>
+<div>
+<p>This syntax won't work in Python 3:</p>
+<pre><code class="language-python">print &quot;Hello, world!&quot;
+</code></pre>
+</div>
+</div>
+<p>[foo][]
+[foo][bar]</p>
+<p>DATETIME TEST</p>
+<p>This is an example of a footnote<sup class="footnote-reference"><a href="#note">1</a></sup>.</p>
+<p>1
+2
+3
+4
+5
+6
+7
+8
+9
+10</p>
+<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
+</span><span class="boring">fn main() {
+</span>struct Abc{
+    abc: usize
+}
+<span class="boring">}</span></code></pre></pre>
+<p>живут в первобытных племенах. Главная героиня — молодая охотница Элой — является изгоем из своего племени, а обстоятельства рождения этой девушки окутаны тайной. После того, как на племя нападают неизвестные враги, Элой отправляется в путешествие, чтобы найти ответы на вопросы о причинах этого нападения, о своём происхождении и о том, почему мир стал таким, какой он есть. В Horizon Zero Dawn реализован открытый мир, и Элой исследует его, посещая поселения разных племён, заброшенные руины людей прошлого и загадочные высокотехнологичные постройки. С помощью копья, лука и разнообразного арсенала дополнительных средств Элой охотится на механических зверей. Боевая система поощряет игрока выбирать собственную стратегию, которая должна сделать охоту на добычу как можно более оптимальной и зрелищной, а детали с останков мёртвых роботов могут использоваться героиней для создания боеприпасов и иного снаряжения. В своём путешествии Элой использует визор — миниатюрное высокотехнологичное устройство дополненной реальности, которое героиня находит в детстве и которое помогает ей видеть то, чего 
+John Lennon's psychedelic Rolls-Royce is an art car created in 1967 and later displayed in many museums. After previously owning a used Rolls-Royce, John Lennon of the Beatles ordered a new bespoke Rolls-Royce Phantom V limousine in December 1964. Originally painted matte black, the car was delivered six months later in June 1965. Lennon appeared in the movie How I Won the War, filmed largely in Spain, in 1966. The car was damaged there, including scuffing of its finish. Lennon decided to have the car repainted bright yellow and decorated with motifs from Romany decorative arts. Artist Steve Weaver embellished the car with elaborate, bright swirls and floral motifs in the psychedelic style associated with the Beatles in that era, and the vehicle became a sensation. Lennon and his wife Yoko Ono donated it to the Cooper-Hewitt Museum for a tax deduction in 1977, and it has been widely exhibited ever since. When sold in 1985, it was the most expensive automobile ever to be auctioned at that time. The limousine is now owned by the Royal British Columbia Museum in Victoria, British Columbia. </p>
+<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg></p>
+<p><a href="/tags.html#rust">#rust</a></p>
+<p>Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
+Wednesday, 25. October 2023 UTC, day 298-2023(43-3)</p>
+<p>rust-galt</p>
+<p style="text-align: center;">Sample text with center alignment</p>
+<p><a href="./about.html">About</a></p>
+<h2 id="webapp"><a class="header" href="#webapp">Webapp</a></h2>
+<div style="flex">
+<iframe src="./dist/index.html" style="border:none;" width=100% height=300rem title="WebApp"></iframe>
+</div>
+<details id="admonition-warning" class="admonition admonish-warning">
+<summary class="admonition-title">
+<p>Warning</p>
+<p><a class="admonition-anchor-link" href="index.html#admonition-warning"></a></p>
+</summary>
+<div>
+<pre><code>A beautifully styled message.
+</code></pre>
+</div>
+</details>
+<h2 id="table"><a class="header" href="#table">Table</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Header1</th><th>Header2</th><th style="text-align: center">Header3</th></tr></thead><tbody>
+<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
+<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
+<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
+</tbody></table>
+</div>
+<h3 id="tasklist"><a class="header" href="#tasklist">Tasklist</a></h3>
+<ul>
+<li><input disabled="" type="checkbox" checked=""/>
+Complete task</li>
+<li><input disabled="" type="checkbox"/>
+Incomplete task</li>
+</ul>
+<div class="footnote-definition" id="note"><sup class="footnote-definition-label">1</sup>
+<p>This text is the contents of the footnote, which will be rendered
+towards the bottom.
+Posted on 2022-05-27 in Software • Tagged with privacy, web, analytics, selfhost
+Last updated: 1
+2
+3
+4
+5
+6
+7
+8
+9
+10</p>
+</div>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="2023"><a class="header" href="#2023">2023</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="hello-world"><a class="header" href="#hello-world">Hello World</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="hello-hello-chapter"><a class="header" href="#hello-hello-chapter">Hello Hello Chapter</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="2023-1"><a class="header" href="#2023-1">2023</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="hello-world-1"><a class="header" href="#hello-world-1">Hello World</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="hello-hello-chapter-1"><a class="header" href="#hello-hello-chapter-1">Hello Hello Chapter</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="algorithms"><a class="header" href="#algorithms">Algorithms</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="chacha20"><a class="header" href="#chacha20">ChaCha20</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="first-app"><a class="header" href="#first-app">First App</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="second-app"><a class="header" href="#second-app">Second App</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="contact"><a class="header" href="#contact">Contact</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="categories"><a class="header" href="#categories">Categories</a></h1>
+<h1 id="rust"><a class="header" href="#rust">Rust</a></h1>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="tags"><a class="header" href="#tags">Tags</a></h1>
+<h2 id="rust-1"><a class="header" href="#rust-1">Rust</a></h2>
+<h2 id="test"><a class="header" href="#test">Test</a></h2>
 
                     </main>
 
@@ -204,6 +324,23 @@
             </nav>
 
         </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function () {
+                socket.close();
+            }
+        </script>
 
 
 
@@ -224,11 +361,12 @@
         <!-- Custom JS scripts -->
 
         <script>
-        window.addEventListener('load', function() {
-            window.setTimeout(window.print, 100);
-        });
+            window.addEventListener('load', function () {
+                window.setTimeout(window.print, 100);
+            });
         </script>
 
     </div>
-    </body>
+</body>
+
 </html>
