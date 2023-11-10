@@ -103,6 +103,98 @@
     --color-scheme: dark;
 }
 
+.k94-light {
+    --bg: #FEF4DB;
+    --fg: hsl(0, 0%, 0%);
+
+    --sidebar-bg: #FEE8B6;
+    --sidebar-fg: hsl(0, 0%, 0%);
+    --sidebar-non-existant: #aaaaaa;
+    --sidebar-active: #1f1fff;
+    --sidebar-spacer: #FDDD92;
+
+    --scrollbar: #FBB000;
+
+    --icons: #747474;
+    --icons-hover: #000000;
+
+    --links: #1f1fff;
+
+    --inline-code-color: #725214;
+
+    --theme-popup-bg: #FEF4DB;
+    --theme-popup-border: #FDDD92;
+    --theme-hover: #FEE8B6;
+
+    --quote-bg: #FEE8B6;
+    --quote-border: #FDDD92;
+
+    --warning-border: #cc3300;
+
+    --table-border-color: #FCBB24;
+    --table-header-bg: #FDD26D;
+    --table-alternate-bg: #FEE8B6;
+
+    --searchbar-border-color: #FCBB24;
+    --searchbar-bg: #FEF4DB;
+    --searchbar-fg: #000;
+    --searchbar-shadow-color: #FEE8B6;
+    --searchresults-header-fg: #666;
+    --searchresults-border-color: #888;
+    --searchresults-li-bg: #FDD26D;
+    --search-mark-bg: #FBB000;
+
+    --color-scheme: light;
+
+    --norm-font: "Iosevka Etoile Web", sans-serif;
+}
+
+.k94-dark {
+    --bg: #171421;
+    --fg: #FBB000;
+
+    --sidebar-bg: #0F0D16;
+    --sidebar-fg: #FBB000;
+    --sidebar-non-existant: #505254;
+    --sidebar-active: #33ff33;
+    --sidebar-spacer: #171421;
+
+    --scrollbar: var(--sidebar-fg);
+
+    --icons: #A0720D;
+    --icons-hover: #FBB000;
+
+    --links: #33ff33;
+
+    --inline-code-color: #2DD02F;
+
+    --theme-popup-bg: #45331A;
+    --theme-popup-border: #A0720D;
+    --theme-hover: #725214;
+
+    --quote-bg: #08070B;
+    --quote-border: #0F0D16;
+
+    --warning-border: #cc3300;
+
+    --table-border-color: #08070B;
+    --table-header-bg: #725214;
+    --table-alternate-bg: #45331A;
+
+    --searchbar-border-color: #08070B;
+    --searchbar-bg: #45331A;
+    --searchbar-fg: #FBB000;
+    --searchbar-shadow-color: #725214;
+    --searchresults-header-fg: #CD9107;
+    --searchresults-border-color: #45331A;
+    --searchresults-li-bg: #45331A;
+    --search-mark-bg: #33ff33;
+
+    --color-scheme: dark;
+
+    --norm-font: "Iosevka Etoile Web", sans-serif;
+}
+
 .light {
     --bg: hsl(0, 0%, 100%);
     --fg: hsl(0, 0%, 0%);
@@ -234,7 +326,7 @@
 
     --color-scheme: light;
 
-    /* --norm-font: "Iosevka Etoile Web", sans-serif; */
+
 }
 
 
