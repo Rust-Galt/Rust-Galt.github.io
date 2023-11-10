@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="light" dir="ltr">
+<html lang="en" class="k94-light" dir="ltr">
 
 <head>
     <!-- Book generated using mdBook -->
@@ -46,7 +46,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-light" : "k94-light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -71,7 +71,7 @@
             try { theme = localStorage.getItem('mdbook-theme'); } catch (e) { }
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
-            html.classList.remove('light')
+            html.classList.remove('k94-light')
             html.classList.add(theme);
             var body = document.querySelector('body');
             body.classList.remove('no-js')
@@ -98,7 +98,8 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html" class="active">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">Tags</a></li></ol>
+                <a href="/"><img src="/logo.svg" height="60" alt="logo" /></a>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html" class="active">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -142,6 +143,8 @@
                             <i class="fa fa-paint-brush fa-lg"></i>
                         </button>
                         <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="k94-light">k94 Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="k94-dark">k94 Dark</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>

@@ -3,6 +3,7 @@
 [Home](./README.md)
 [Blog](./blog/README.md)
 
+
 ----
 
 # Blog
@@ -21,9 +22,11 @@
 
 ---
 
-<!-- - [last](./last.md) -->
-
-[About](./about.md)
-[Contact](./contact.md)
 [Categories](./categories.md)
-[Tags](./tags.md)
+[#Tags](./tags.md)
+
+---
+
+[Disclaimer](./disclaimer.md)
+[Contact](./contact.md)
+[About](./about.md)
