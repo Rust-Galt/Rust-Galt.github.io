@@ -5,7 +5,7 @@ Feel free to [contact me](../contact.md) if you have any questions or comments.
 
 <!-- ![a](../barbell.svg) -->
 
-## [2023](./2023/)
+## [2024](./2024/)
 
 Rust - /Rust: Rusty topics, interesting crates and useful snippets
 

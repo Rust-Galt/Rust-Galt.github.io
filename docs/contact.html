@@ -46,7 +46,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-light" : "k94-light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-dark" : "k94-light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -99,7 +99,7 @@
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <a href="/"><img src="/logo.svg" height="60" alt="logo" /></a>
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li><li class="chapter-item expanded affix "><a href="contact.html" class="active">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="chapter-item expanded affix "><a href="contact.html" class="active">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><div>Second App</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2024/index.html">2024</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -205,7 +205,7 @@
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
                         <!-- Mobile navigation buttons -->
-                        <a rel="prev" href="disclaimer.html" class="mobile-nav-chapters previous"
+                        <a rel="prev" href="blog/index.html" class="mobile-nav-chapters previous"
                             title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
                             <i class="fa fa-angle-left fa-lg"></i>
                         </a>
@@ -221,7 +221,7 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Page navigation">
-                <a rel="prev" href="disclaimer.html" class="nav-chapters previous" title="Previous chapter"
+                <a rel="prev" href="blog/index.html" class="nav-chapters previous" title="Previous chapter"
                     aria-label="Previous chapter" aria-keyshortcuts="Left">
                     <i class="fa fa-angle-left fa-lg"></i>
                 </a>

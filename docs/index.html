@@ -46,7 +46,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-light" : "k94-light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-dark" : "k94-light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -99,7 +99,7 @@
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <a href="/"><img src="/logo.svg" height="60" alt="logo" /></a>
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html" class="active">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><div>Second App</div></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2024/index.html">2024</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -194,10 +194,10 @@
                     <main>
                         <h1 id="first"><a class="header" href="#first">Home - Welcome to k94.ch!</a></h1>
 <!--  -->
-<h2 id="jack-of-all-trades-master-of-somewip-1"><a class="header" href="#jack-of-all-trades-master-of-somewip-1">Jack of all trades, master of <strong><code>Some(wip)</code></strong> <sup class="footnote-reference"><a href="#wip">1</a></sup></a></h2>
+<h2 id="jack-of-all-trades-master-of-somet"><a class="header" href="#jack-of-all-trades-master-of-somet">Jack of all trades, master of <strong><code>Some(T)</code></strong>*</a></h2>
 <p>Greetings! </p>
-<p>I'm Jakob Kilo and this is <a href="/">k94.ch</a>, my personal website. </p>
-<p>The main content on this site can be found in <a href="./blog/README.html">my blog</a> 
+<p>I'm Jakob Kilo and this is my personal website <a href="/">k94.ch</a></p>
+<p>The main content on this site can be found in <a href="./blog/index.html">my blog</a> 
 where I want to cover topics ranging from Rust crates, 
 cryptography and strength training, to travel and other curiosities.</p>
 <p>If you have any questions or comments, feel free to <a href="./contact.html">contact me.</a></p>
@@ -207,9 +207,7 @@ cryptography and strength training, to travel and other curiosities.</p>
 <ul>
 <li>2023-11-10 First launch with actual content</li>
 </ul>
-<div class="footnote-definition" id="wip"><sup class="footnote-definition-label">1</sup>
-<p>Work in progress. <a href="https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some"><code>Some(T)</code></a></p>
-</div>
+<p>* Work in progress. <a href="https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some"><code>Some(T)</code></a></p>
 <blockquote>
 <p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
 </blockquote>
