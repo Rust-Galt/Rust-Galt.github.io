@@ -16,4 +16,4 @@ Every effort is made to keep the website up and running smoothly.
 However, Jakob Kilo (k94@k94.ch) takes no responsibility for, and will not be liable for, 
 the website being temporarily unavailable due to technical issues beyond our control.
 
-> Updated on <time datetime="2023-11-10">2023-11-10</time> in [Meta](categories.md#Meta) 
+> Updated on <time datetime="2024-01-01">2024-01-01</time> in [Meta](categories.md#Meta) 

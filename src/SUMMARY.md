@@ -7,19 +7,15 @@
 
 ---
 
-# Apps
-- [First App](./apps/first_app.md)
-- [Second App]()
+<!-- # Apps -->
+<!-- - [First App](./apps/first_app.md) -->
+<!-- - [Second App]() -->
 
----
+<!-- --- -->
 
 # Blog
 
-
-- [2024](./blog/2024/README.md)
-
-
-
+- [2024-01-01 Hello, world!](./blog/Hello,%20world!.md)
 
 
 ---

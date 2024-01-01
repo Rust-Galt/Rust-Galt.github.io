@@ -1,7 +1,10 @@
 # Tags
 
-## Rust
+## #First
+- [Hello, world!](./blog/2024/Hello,%20world!.md)
 
-## Test
+## #Rust
 
-> Updated on <time datetime="2023-11-10">2023-11-10</time> in [Meta](categories.md#Meta) 
+
+
+> Updated on <time datetime="2024-01-01">2024-01-01</time> in [Meta](categories.md#Meta) 

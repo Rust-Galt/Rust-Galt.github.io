@@ -1,4 +1,4 @@
-# Home - Welcome to k94.ch! { #first }
+# Welcome to k94.ch! { #first }
 
 <!-- {{#title Welcome to k94.ch!}} -->
 
@@ -20,12 +20,13 @@ If you have any questions or comments, feel free to [contact me.](./contact.md)
 
 ### Recommended posts
 
-Recommended posts
+- [2024-01-01 Hello, world!](./blog/Hello,%20world!.md)
 
 ### Timeline
 
-- 2023-11-10 First launch with actual content
+- 2024-01-01 First blog post [Hello, world!](./blog/Hello,%20world!.md)
+
 
 \* Work in progress. [`Some(T)`](https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some)
 
-> Updated on <time datetime="2023-11-10">2023-11-10</time> in [Meta](categories.md#Meta) 
+> Updated on <time datetime="2024-01-01">2024-01-01</time> in [Meta](categories.md#Meta) 
