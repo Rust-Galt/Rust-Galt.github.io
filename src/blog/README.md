@@ -12,7 +12,7 @@ Feel free to [contact me](../contact.md) if you have any questions or comments.
 [Misc](../categories.md#misc): Miscellaneous topics, travel, photography and exploration
 
 ## 2024
-- [2024-01-01 • Hello, world!](./blog/Hello,%20world!.md)
+- [2024-01-01 Hello, world!](./blog/Hello,%20world!.md)
 
 
 > Updated on <time datetime="2024-01-01">2024-01-01</time> in [Meta](categories.md#Meta) 
