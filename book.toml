@@ -21,7 +21,7 @@ on_failure = "bail"
 
 [output.html]
 default-theme = "k94-light"
-preferred-dark-theme = "k94-light"
+preferred-dark-theme = "k94-dark"
 no-section-label = true
 cname = "k94.ch"
 copy-fonts = true

@@ -2,31 +2,24 @@
 
 [Home](./README.md)
 [Blog](./blog/README.md)
+[Contact](./contact.md)
+[About](./about.md)
 
+---
 
-----
+<!-- # Apps -->
+<!-- - [First App](./apps/first_app.md) -->
+<!-- - [Second App]() -->
+
+<!-- --- -->
 
 # Blog
 
+- [2024-01-01 Hello, world!](./blog/Hello,%20world!.md)
 
-- [2023](./blog/2023/README.md)
-    - [14th October - Hello World](./blog/2023/hello_world.md)
-        - [Hello Hello Chapter](./blog/2023/hellohello.md)
-
-
-- [ChaCha20](./chacha20.md)
-
-# Apps
-- [First App](./apps/first_app.md)
-- [Second App](./apps/second_app.md)
 
 ---
 
 [Categories](./categories.md)
 [#Tags](./tags.md)
-
----
-
 [Disclaimer](./disclaimer.md)
-[Contact](./contact.md)
-[About](./about.md)

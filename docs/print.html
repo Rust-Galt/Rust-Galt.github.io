@@ -47,7 +47,7 @@
         <!-- Provide site root to javascript -->
         <script>
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-light" : "k94-light";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "k94-dark" : "k94-light";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -100,7 +100,7 @@
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
                 <a href="/"><img src="/logo.svg" height="60" alt="logo" /></a>
-                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/2023/index.html">2023</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hello_world.html">14th October - Hello World</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="blog/2023/hellohello.html">Hello Hello Chapter</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="chacha20.html">ChaCha20</a></li><li class="chapter-item expanded affix "><li class="part-title">Apps</li><li class="chapter-item expanded "><a href="apps/first_app.html">First App</a></li><li class="chapter-item expanded "><a href="apps/second_app.html">Second App</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="index.html">Home</a></li><li class="chapter-item expanded affix "><a href="blog/index.html">Blog</a></li><li class="chapter-item expanded affix "><a href="contact.html">Contact</a></li><li class="chapter-item expanded affix "><a href="about.html">About</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Blog</li><li class="chapter-item expanded "><a href="blog/Hello, world!.html">2024-01-01 Hello, world!</a></li><li class="spacer"></li><li class="chapter-item expanded affix "><a href="categories.html">Categories</a></li><li class="chapter-item expanded affix "><a href="tags.html">#Tags</a></li><li class="chapter-item expanded affix "><a href="disclaimer.html">Disclaimer</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -193,158 +193,138 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 id="first"><a class="header" href="#first">Home - Welcome to k94.ch!</a></h1>
+                        <h1 id="first"><a class="header" href="#first">Welcome to k94.ch!</a></h1>
 <!--  -->
-<h2 id="jack-of-all-trades-master-of-somewip-1"><a class="header" href="#jack-of-all-trades-master-of-somewip-1">Jack of all trades, master of <strong><code>Some(wip)</code></strong> <sup class="footnote-reference"><a href="#wip">1</a></sup></a></h2>
+<h2 id="jack-of-all-trades-master-of-somet"><a class="header" href="#jack-of-all-trades-master-of-somet">Jack of all trades, master of <strong><code>Some(T)</code></strong>*</a></h2>
 <p>Greetings! </p>
-<p>I'm Jakob Kilo and this is <a href="/">k94.ch</a>, my personal website. </p>
-<p>The main content on this site can be found in <a href="./blog/README.html">my blog</a> 
+<p>I'm Jakob Kilo and this is my personal website <a href="/">k94.ch</a></p>
+<p>The main content on this site can be found in <a href="./blog/index.html">my blog</a> 
 where I want to cover topics ranging from Rust crates, 
 cryptography and strength training, to travel and other curiosities.</p>
 <p>If you have any questions or comments, feel free to <a href="./contact.html">contact me.</a></p>
 <h3 id="recommended-posts"><a class="header" href="#recommended-posts">Recommended posts</a></h3>
-<p>Recommended posts</p>
+<ul>
+<li><a href="./blog/Hello,%20world!.html">2024-01-01 Hello, world!</a></li>
+</ul>
 <h3 id="timeline"><a class="header" href="#timeline">Timeline</a></h3>
 <ul>
-<li>2023-11-10 First launch with actual content</li>
+<li>2024-01-01 First blog post <a href="./blog/Hello,%20world!.html">Hello, world!</a></li>
 </ul>
-<div class="footnote-definition" id="wip"><sup class="footnote-definition-label">1</sup>
-<p>Work in progress. <a href="https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some"><code>Some(T)</code></a></p>
-</div>
+<p>* Work in progress. <a href="https://doc.rust-lang.org/std/option/enum.Option.html#variant.Some"><code>Some(T)</code></a></p>
 <blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
 <p>Here is my blog where I publish things I'm curious about. I hope you'll find something interesting here.
 Feel free to <a href="blog/../contact.html">contact me</a> if you have any questions or comments.</p>
-<!-- ![a](../barbell.svg) -->
-<h2 id="2023"><a class="header" href="#2023"><a href="blog/./2023/">2023</a></a></h2>
-<p>Rust - /Rust: Rusty topics, interesting crates and useful snippets</p>
-<p>Tech - /Tech: Technical topics, discoveries and curiosities</p>
-<p>Fit - /Fit: Fitness, exercise, nutrition and lifestyle design</p>
-<p>Misc - /Misc: Miscellaneous topics, travel, photography and exploration</p>
-<blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="blog/categories.html#Meta">Meta</a> </p>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="2023-1"><a class="header" href="#2023-1">2023</a></h1>
-<blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="blog/2023/categories.html#Meta">Meta</a> </p>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="hello-world"><a class="header" href="#hello-world">Hello World</a></h1>
-<blockquote>
-<p>Updated on 2022-05-27 in <a href="blog/2023/categories.html#Meta">Meta</a> • Tagged with privacy, web, analytics, selfhost</p>
-</blockquote>
-<blockquote>
-<p>Posted on 2022-05-27 in Software • Tagged with privacy, web, analytics, selfhost</p>
-</blockquote>
-<p>Tom Tucker</p>
-<div id="admonition-notice-and-listen" class="admonition admonish-info">
-<div class="admonition-title">
-<p>Notice and listen</p>
-<p><a class="admonition-anchor-link" href="blog/2023/hello_world.html#admonition-notice-and-listen"></a></p>
-</div>
-<div>
-<p>A beautifully <strong>styled</strong> <del>message</del>.</p>
-</div>
-</div>
-<div id="admonition-bug" class="admonition admonish-bug">
-<div class="admonition-title">
-<p>Bug</p>
-<p><a class="admonition-anchor-link" href="blog/2023/hello_world.html#admonition-bug"></a></p>
-</div>
-<div>
-<p>This syntax won't work in Python 3:</p>
-<pre><code class="language-python">print &quot;Hello, world!&quot;
-</code></pre>
-</div>
-</div>
-<p>[foo][]
-[foo][bar]</p>
-<p>DATETIME TEST</p>
-<p>This is an example of a footnote<sup class="footnote-reference"><a href="#note">1</a></sup>.</p>
-<p>1
-2
-3
-4
-5
-6
-7
-8
-9
-10</p>
-<pre><pre class="playground"><code class="language-rust"><span class="boring">#![allow(unused)]
-</span><span class="boring">fn main() {
-</span>struct Abc{
-    abc: usize
-}
-<span class="boring">}</span></code></pre></pre>
-<p>живут в первобытных племенах. Главная героиня — молодая охотница Элой — является изгоем из своего племени, а обстоятельства рождения этой девушки окутаны тайной. После того, как на племя нападают неизвестные враги, Элой отправляется в путешествие, чтобы найти ответы на вопросы о причинах этого нападения, о своём происхождении и о том, почему мир стал таким, какой он есть. В Horizon Zero Dawn реализован открытый мир, и Элой исследует его, посещая поселения разных племён, заброшенные руины людей прошлого и загадочные высокотехнологичные постройки. С помощью копья, лука и разнообразного арсенала дополнительных средств Элой охотится на механических зверей. Боевая система поощряет игрока выбирать собственную стратегию, которая должна сделать охоту на добычу как можно более оптимальной и зрелищной, а детали с останков мёртвых роботов могут использоваться героиней для создания боеприпасов и иного снаряжения. В своём путешествии Элой использует визор — миниатюрное высокотехнологичное устройство дополненной реальности, которое героиня находит в детстве и которое помогает ей видеть то, чего 
-John Lennon's psychedelic Rolls-Royce is an art car created in 1967 and later displayed in many museums. After previously owning a used Rolls-Royce, John Lennon of the Beatles ordered a new bespoke Rolls-Royce Phantom V limousine in December 1964. Originally painted matte black, the car was delivered six months later in June 1965. Lennon appeared in the movie How I Won the War, filmed largely in Spain, in 1966. The car was damaged there, including scuffing of its finish. Lennon decided to have the car repainted bright yellow and decorated with motifs from Romany decorative arts. Artist Steve Weaver embellished the car with elaborate, bright swirls and floral motifs in the psychedelic style associated with the Beatles in that era, and the vehicle became a sensation. Lennon and his wife Yoko Ono donated it to the Cooper-Hewitt Museum for a tax deduction in 1977, and it has been widely exhibited ever since. When sold in 1985, it was the most expensive automobile ever to be auctioned at that time. The limousine is now owned by the Royal British Columbia Museum in Victoria, British Columbia. </p>
-<p><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 0c4.6 0 9.2 1 13.4 2.9L457.7 82.8c22 9.3 38.4 31 38.3 57.2c-.5 99.2-41.3 280.7-213.6 363.2c-16.7 8-36.1 8-52.8 0C57.3 420.7 16.5 239.2 16 140c-.1-26.2 16.3-47.9 38.3-57.2L242.7 2.9C246.8 1 251.4 0 256 0zm0 66.8V444.8C394 378 431.1 230.1 432 141.4L256 66.8l0 0z"/></svg></p>
-<p><a href="blog/2023//tags.html#rust">#rust</a></p>
-<p>Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)
-Wednesday, 25. October 2023 UTC, day 298-2023(43-3)</p>
-<p>rust-galt</p>
-<p style="text-align: center;">Sample text with center alignment</p>
-<p><a href="blog/2023/./about.html">About</a></p>
-<h2 id="webapp"><a class="header" href="#webapp">Webapp</a></h2>
-<div style="flex">
-<iframe src="./dist/index.html" style="border:none;" width=100% height=300rem title="WebApp"></iframe>
-</div>
-<details id="admonition-warning" class="admonition admonish-warning">
-<summary class="admonition-title">
-<p>Warning</p>
-<p><a class="admonition-anchor-link" href="blog/2023/hello_world.html#admonition-warning"></a></p>
-</summary>
-<div>
-<pre><code>A beautifully styled message.
-</code></pre>
-</div>
-</details>
-<h2 id="table"><a class="header" href="#table">Table</a></h2>
-<div class="table-wrapper"><table><thead><tr><th>Header1</th><th>Header2</th><th style="text-align: center">Header3</th></tr></thead><tbody>
-<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
-<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
-<tr><td>abc</td><td>def</td><td style="text-align: center">test</td></tr>
-</tbody></table>
-</div>
-<h3 id="tasklist"><a class="header" href="#tasklist">Tasklist</a></h3>
+<p><a href="blog/../categories.html#rust">Rust</a>: Rusty topics, interesting crates and useful snippets</p>
+<p><a href="blog/../categories.html#tech">Tech</a>: Technical topics, discoveries and curiosities</p>
+<p><a href="blog/../categories.html#fit">Fit</a>: Fitness, exercise, nutrition and lifestyle design</p>
+<p><a href="blog/../categories.html#misc">Misc</a>: Miscellaneous topics, travel, photography and exploration</p>
+<h2 id="2024"><a class="header" href="#2024">2024</a></h2>
 <ul>
-<li><input disabled="" type="checkbox" checked=""/>
-Complete task</li>
-<li><input disabled="" type="checkbox"/>
-Incomplete task</li>
+<li><a href="blog/./blog/Hello,%20world!.html">2024-01-01 Hello, world!</a></li>
 </ul>
-<div class="footnote-definition" id="note"><sup class="footnote-definition-label">1</sup>
-<p>This text is the contents of the footnote, which will be rendered
-towards the bottom.
-Posted on 2022-05-27 in Software • Tagged with privacy, web, analytics, selfhost
-Last updated: 1
-2
-3
-4
-5
-6
-7
-8
-9
-10</p>
-</div>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="hello-hello-chapter"><a class="header" href="#hello-hello-chapter">Hello Hello Chapter</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="chacha20"><a class="header" href="#chacha20">ChaCha20</a></h1>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="first-app"><a class="header" href="#first-app">First App</a></h1>
-<h2 id="webapp-1"><a class="header" href="#webapp-1">Webapp</a></h2>
-<div style="flex">
-<iframe src="../../dist/index.html" style="border:none; width: 100%; height:70vh;" title="WebApp"></iframe>
-</div><div style="break-before: page; page-break-before: always;"></div><h1 id="second-app"><a class="header" href="#second-app">Second App</a></h1>
+<blockquote>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="blog/categories.html#Meta">Meta</a> </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="contact"><a class="header" href="#contact">Contact</a></h1>
+<h2 id="email"><a class="header" href="#email">Email</a></h2>
+<p><a href="mailto:k94@k94.ch">k94@k94.ch</a> (<a href="./publickey.k94@k94.ch-cf64998fea6e6bcf942457ced0703d5d33a9058a.asc">public key</a>) or write encrypted through <a href="https://proton.me/">ProtonMail</a> directly to this address.</p>
+<h2 id="github"><a class="header" href="#github">Github</a></h2>
+<p><a href="https://github.com/Rust-Galt">Rust-Galt</a></p>
+<blockquote>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
+<p>Greetings! I'm Jakob Kilo and this is my blog. For now my first post tells some things about me: <a href="./blog/Hello,%20world!.html">2024-01-01 Hello, world!</a>.</p>
+<blockquote>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
+</blockquote>
+<div style="break-before: page; page-break-before: always;"></div><h1 id="hello-world"><a class="header" href="#hello-world">Hello, world!</a></h1>
+<blockquote>
+<p>Posted on 2024-01-01 in <a href="blog/../../categories.html#misc">Misc</a> • Tagged with <a href="blog/../tags.html#first">First</a></p>
+</blockquote>
+<p>Greetings! This is the first blog post on my website. Future post will likely be more structured and less of a rant. I just want to get something out there, instead of dwelling on it for too long. </p>
+<p>I will start publishing blog posts regularly about various topics related to my interests. And want to document my journey and force myself to actually finish study projects and embedded simple web apps on this site. I have a scientific background and want to switch fields to software development and I'm currently studying <a href="https://www.rust-lang.org/"><em><strong>Rust</strong></em></a>. Let's get started...</p>
+<pre><code>cargo new k94
+cd ./k94/
+cargo run
+</code></pre>
+<p><code>Hello, world!</code></p>
+<p>To start out, I decided to use <a href="https://github.com/rust-lang/mdBook">mdBook</a> with the <code>no-section-label = true</code> option, which removes enumeration of the sections, to make a simple blog hosted on GitHub pages. I have been a bit <em>creative</em> with the styles but more classic options are available when pressing the <em>paint brush icon</em> above.</p>
+<h2 id="getting-into-programming"><a class="header" href="#getting-into-programming">Getting into programming</a></h2>
+<p>After dabbling in <a href="https://en.wikipedia.org/wiki/Visual_Basic_(.NET)"><em>Visual Basic</em></a> as a child, I was exposed to <a href="https://en.wikipedia.org/wiki/Java_(programming_language)"><em>Java</em></a> at university and fortunately had a <em>functional programming (FP)</em> course that changed my view on programming fundamentally. There I learned programming fundamentals in <a href="https://www.scheme.org/"><em>Scheme</em></a>, a Lisp. While getting deeper into the FP, I discovered static typing and started dabbling in <a href="https://www.haskell.org/"><em>Haskell</em></a>. Probably one of the less suited <em>first programming</em> languages out there!</p>
+<p>Being able to reason so much about the program in question, just by reading the type signatures was eye opening. For me <a href="https://en.wikipedia.org/wiki/Algebraic_data_type"><em>algebraic data types</em></a> are much better for modelling the world, than any inheritance schemes and OOP ideas I've encountered. </p>
+<p>I've always preferred using Linux machines for productivity over Windows spyware, which remains a niche OS for playing video games. This made me stay clear of anything <em>.NET</em>. And don't get me started with Apple.</p>
+<p>Looking at the popular Javascript and it's copious footguns stemming from legacy requirements made me stay clear of it. When simple comparisons are hard to reason about... I preferred something stricter and better designed. <a href="https://www.python.org/">Python</a> seems reasonable and looks good for scripting but I prefer a rich type system and a compiled language.</p>
+<p>Maybe bite the bullet and back to <em>Haskell</em>? Then I started to learn about garbage collection and memory leaks in what I deemed to be <em>safe and predictable</em>.</p>
+<p>Then I found <a href="https://www.rust-lang.org/"><em><strong>Rust</strong></em></a> as my first real programming language, in which I'm getting proficient in. Checking all the boxes and then some, which I'm still learning about and discovering. Of course nothing is perfect but we are getting closer. Learning this language has been my focus lately and I enjoy the process.</p>
+<h2 id="why-start-this-blog"><a class="header" href="#why-start-this-blog">Why start this blog?</a></h2>
+<p>I want to start a blog for multiple reasons:</p>
+<ul>
+<li>I think I might share things others find interesting or helpful too.</li>
+<li>I enjoy reading other small technical blogs that I stumble upon and want to be part of that sphere.</li>
+<li>Being somewhat of a recluse when it comes to sharing things on social media I will instead share things here under a pseudonym.</li>
+<li>Help to structure my learning and force myself to actually finish study projects. So I can share them here and build a sort of portfolio.</li>
+<li>Working on overcoming fears of failure and instead of striving for perfection; just push, push, push, instead. That is at least publish <em>something</em> and not just think about doing so.</li>
+<li>To support the notion of weekly goals. Working towards bigger long-term goals while keeping myself accountable.</li>
+</ul>
+<h2 id="why-k94ch"><a class="header" href="#why-k94ch">Why &quot;k94.ch&quot;?</a></h2>
+<ul>
+<li>It is short</li>
+<li>Swiss TLD can't be that bad for a blog</li>
+<li>Possibly related to my persona</li>
+<li>It is short</li>
+</ul>
+<h2 id="other-interests"><a class="header" href="#other-interests">Other interests</a></h2>
+<ul>
+<li>Algorithms
+<ul>
+<li>Compression</li>
+<li>Encryption</li>
+<li>Hashing</li>
+</ul>
+</li>
+<li>EDC</li>
+<li>Fitness
+<ul>
+<li>Hiking</li>
+<li>Strength training (Gym)</li>
+<li>Stretching/Yoga</li>
+</ul>
+</li>
+<li>Languages</li>
+<li>Music</li>
+<li>Nutrition
+<ul>
+<li>Carnivore and other meat based diets</li>
+<li>Gluten intolerance and autoimmune disease</li>
+</ul>
+</li>
+<li>Post-Soviet states and culture</li>
+<li>Self-improvement</li>
+<li>Software
+<ul>
+<li>Privacy</li>
+<li>Unix</li>
+<li>Utilitarian</li>
+</ul>
+</li>
+<li>Technical topics
+<ul>
+<li>Gadgets </li>
+<li>Hardware</li>
+</ul>
+</li>
+<li>Tools</li>
+<li>Travel</li>
+</ul>
+<blockquote>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="blog/../../categories.html#misc">Misc</a></p>
+</blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="categories"><a class="header" href="#categories">Categories</a></h1>
-<h2 id="rust"><a class="header" href="#rust">Rust</a></h2>
+<h2 id="fit"><a class="header" href="#fit">Fit</a></h2>
 <h2 id="meta"><a class="header" href="#meta">Meta</a></h2>
 <ul>
 <li><a href="./about.html">About</a></li>
@@ -354,14 +334,23 @@ Last updated: 1
 <li><a href="/">Home</a></li>
 <li><a href="./tags.html">Tags</a></li>
 </ul>
+<h2 id="misc"><a class="header" href="#misc">Misc</a></h2>
+<ul>
+<li><a href="./blog/2024/Hello,%20world!.html">Hello, world!</a></li>
+</ul>
+<h2 id="rust"><a class="header" href="#rust">Rust</a></h2>
+<h2 id="tech"><a class="header" href="#tech">Tech</a></h2>
 <blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="tags"><a class="header" href="#tags">Tags</a></h1>
-<h2 id="rust-1"><a class="header" href="#rust-1">Rust</a></h2>
-<h2 id="test"><a class="header" href="#test">Test</a></h2>
+<h2 id="first"><a class="header" href="#first">#First</a></h2>
+<ul>
+<li><a href="./blog/2024/Hello,%20world!.html">Hello, world!</a></li>
+</ul>
+<h2 id="rust-1"><a class="header" href="#rust-1">#Rust</a></h2>
 <blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
 </blockquote>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="disclaimer"><a class="header" href="#disclaimer">Disclaimer</a></h1>
 <p>The information contained in this website is for general information purposes only. 
@@ -379,19 +368,7 @@ Every effort is made to keep the website up and running smoothly.
 However, Jakob Kilo (k94@k94.ch) takes no responsibility for, and will not be liable for, 
 the website being temporarily unavailable due to technical issues beyond our control.</p>
 <blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="contact"><a class="header" href="#contact">Contact</a></h1>
-<h2 id="email"><a class="header" href="#email">Email</a></h2>
-<p><a href="mailto:k94@k94.ch">k94@k94.ch</a> (<a href="./publickey.k94@k94.ch-cf64998fea6e6bcf942457ced0703d5d33a9058a.asc">public key</a>) or write encrypted through <a href="https://proton.me/">ProtonMail</a> directly to this address.</p>
-<h2 id="github"><a class="header" href="#github">Github</a></h2>
-<p><a href="https://github.com/Rust-Galt">Rust-Galt</a></p>
-<blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
-</blockquote>
-<div style="break-before: page; page-break-before: always;"></div><h1 id="about"><a class="header" href="#about">About</a></h1>
-<blockquote>
-<p>Updated on <time datetime="2023-11-10">2023-11-10</time> in <a href="categories.html#Meta">Meta</a> </p>
+<p>Updated on <time datetime="2024-01-01">2024-01-01</time> in <a href="categories.html#Meta">Meta</a> </p>
 </blockquote>
 
                     </main>
